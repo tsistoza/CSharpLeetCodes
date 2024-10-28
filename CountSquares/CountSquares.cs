@@ -36,6 +36,7 @@ namespace Solution
         }
 
         // Gets all the indexes that make a square with length sizeOfSquare and adds to the list
+        // Note that the anchor is the top left of the square [i,j]
         private void AddToList(List<KeyValuePair<int,int>> list, int sizeOfSquare, int i, int j)
         {
             for(int i2=i; i2<=i+sizeOfSquare-1; i2++)
