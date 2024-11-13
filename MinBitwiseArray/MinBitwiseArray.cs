@@ -21,16 +21,16 @@ namespace Solution
             for (int i=0; i<nums.Count; i++)
             {
                 this.getAllBits(bits, nums[i]);
-                if (bits[0] == 0) // if zeroth bit is zero then its impossible to find a nums[i]
+                if (bits[0] == 0) // if zeroth bit is zero then its impossible to find a ans[i] such that ans[i] + ans[i]+1 == nums[i]
                 {
                     result[i] = -1;
                     bits.Clear();
                     continue;
                 }
 
-                // Special case where 111 -> ans[i] = 11 | 100 (minimum)
+                // Special case where nums[i] = 111 -> ans[i] = 11 | 100 (we will say 11 is the minimum)
                 // We want to start at the minimum amount, in this case 11 is the min, this applies to any number as long as zeroth bit != 0
-                // Suppose 1010 then our min is 111, similarly 11000, min = 1111
+                // Suppose 1010 then our min is 111, similarly 11000, min = 1111, thus for n bits, the minimum is always n-1 bits where each bit is 1.
 
                 int range = 0;
                 for (int j = 0; j < bits.Count-1; j++) range += (int)Math.Pow(2, j);  // Find range which is the min amount
