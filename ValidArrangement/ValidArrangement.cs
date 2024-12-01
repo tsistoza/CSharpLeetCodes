@@ -32,6 +32,7 @@ namespace Solution
                     result.Add(new Tuple<int, int>(CheckEnd[end], end));
                     if (!CheckStart.ContainsKey(end)) break; 
                     end = CheckStart[end];
+                    if (result.Count == pairs.GetLength(0)) break;
                 }
                 if (result.Count == pairs.GetLength(0)) break;
                 result.Clear();
@@ -43,6 +44,9 @@ namespace Solution
         {
             Program obj = new Program();
             foreach (Tuple<int,int> pair in obj.ValidArrangement(Globals.pairs))
+                Console.Write($"({pair.Item1}, {pair.Item2}) ");
+            Console.WriteLine();
+            foreach (Tuple<int, int> pair in obj.ValidArrangement(Globals.pairs1))
                 Console.Write($"({pair.Item1}, {pair.Item2}) ");
             Console.WriteLine();
             return;
