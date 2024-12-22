@@ -29,4 +29,6 @@ As well as familiarize myself with algorithms not already known to me.
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b02dc0039458d634bdfdfc411b444485e883440d/_CSharpDynProg/MaxNumChoose/MaxNumChoose.cs) |
 | 2577 | [WIP]() |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c7d025582acd8ce780aafa36164278bf011360e1/MakeSubseq/MakeSubseq.cs) |
+| 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e5ac6d57c3c6bddb18389613e4e100f9bbd12714/MaxKDivisible/MaxKDivisible.cs) |
+| 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d2df336b8a98bcf2f536443b90e98e4c350ca23b/FindBuilding/FindBuilding.cs) |
 | 2981 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d93be3bbce02c9095d4ff9dc6af1a1c0ab4bbfac/LongSubstringThrice/LongSubstringThrice.cs) |
