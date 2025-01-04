@@ -40,6 +40,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/308fabfa02a6e8850777f351389847b442c3a1a1/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f11b79030cdbd5169a133d912184986fd19f0a7b/ValidArrangement/ValidArrangement.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4cbaf1dd984a2f8bcc24df7e7ae7a3f134fb36d7/ConstructStr/ConstructStr.cs) |
+| 2270 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/833b3d5ed1bfa7b0a1ee46dc13084ce3523bed22/NumSplitArr/NumSplitArr.cs) |
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/2ce30da5d0f1e662c794888938da655228d94876/CSharpDynProg/LargestComb/LargestComb.cs) |
 | 2290 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/23cfb6a7c665e89ddd5c718add82177689fffb24/MinimumObstacle/MinimumObstacle.cs) |
 | 2295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d78434c1d491f9862064ffeccd13f48dcb38dd1b/ArrayChange/ArrayChange.cs) |
@@ -57,6 +58,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/447a22495ac69d531fc694d32e0faadef83a65cd/HasTrailingZeros/HasTrailingZeros.cs) |
 | 2981 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d93be3bbce02c9095d4ff9dc6af1a1c0ab4bbfac/LongSubstringThrice/LongSubstringThrice.cs) |
 | 3011 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/52090fe65559fd7413900e66f63bcef5d62b0d69/BitArraySort/BitArraySort.cs) |
+| 3071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c2b491bc100a2edbaf95a793cc3b508359e842aa/LetterY/LetterY.cs) |
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f6a5643032c6acf0fb638f4861a59fe063bb7cd0/minSubarray/minSubarray.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c5d19ada0b5374363d35532ead47360bbe448a98/StringCompIII/StringCompIII.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/71399b2369fc70dcc4d84d02f6c2adbd0dbfc03c/MinBitwiseArray/MinBitwiseArray.cs) |
