@@ -29,6 +29,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/109932ed667bfa9f1110cf331149eed13dc2622b/ConstructKPalin/ConstructKPalin.cs) |
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/58c0108ebd39a3b2161f33e0b6d8e61c87e098c7/KLengthApart/KLengthApart.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4e4186ba9ee644e2f294da2148f2f4be35150129/DefuseTheBomb/DefuseTheBomb.cs) |
+| 1769 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b88a61391224aa7dfed2bc36a26d44f5fa4d172f/MoveBallsToBox/MoveBallsToBox.cs) |
 | 1792 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0f2889f3955f0684ebeb5de7c8463ebb4ed2b519/MaxAvgRatio/MaxAvgRatio.cs) |
 | 1829 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4147be754fcf548a9f9fd32e3c1877d412442331/MaxXor/MaxXor.cs) |
 | 1854 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/13392c6eb3ec8fd71e5a6422cdcb1f42f7086984/MaximumPopulation/MaximumPopulation.cs) |
@@ -45,6 +46,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2290 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/23cfb6a7c665e89ddd5c718add82177689fffb24/MinimumObstacle/MinimumObstacle.cs) |
 | 2295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d78434c1d491f9862064ffeccd13f48dcb38dd1b/ArrayChange/ArrayChange.cs) |
 | 2376 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/db2d01e071ff4d7e4e538464723b96541213b4be/CountSpecialInt/CountSpecialInt.cs) |
+| 2381 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1bc61723ce36e93a601106809cd1a15c804e0026/ShiftLettersII/ShiftLettersII.cs) |
 | 2415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/53005eac56a5a74ef35791d7dfda152d00b081e2/ReverseOddBT/ReverseOddBT.cs) |
 | 2425 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/03995b5b18cca3cd7109ef1e97201863beceadec/XorAllNums/XorAllNums.cs) |
 | 2466 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/040d430b04d5f35742bb20e097046910ba2bd9a8/CountGoodStr/CountGoodStr.cs) |
