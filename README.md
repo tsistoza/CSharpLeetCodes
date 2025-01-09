@@ -35,6 +35,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1854 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/13392c6eb3ec8fd71e5a6422cdcb1f42f7086984/MaximumPopulation/MaximumPopulation.cs) |
 | 1855 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e71c419b81afbb35dc7cf3389004a53877ca0d20/MaxDistBetweenVals/MaxDistBetweenVals.cs) |
 | 1893 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a67aeedb3754fe7e6e6337413f89b93b0972d6c3/CheckIntegerRange/CheckIntegerRange.cs) |
+| 1947 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/05a8b953dcbc6ebfbd3cfec28fa9b4f6d2d79be9/MaxCompatibality/MaxCompatibility.cs) |
 | 1975 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/728bbcbe6f3fd94ea141da7e108a72b14a6eb42f/MaximumMatrixSum/MaxMatrixSum.cs) |
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a181dff628cd8ba1797b0a8f2108fb00f5026aa4/TwoBestEvents/TwoBestEvents.cs) |
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/103299b647beae0d95cc1ad9182a35fe12f17ccf/MinimizedMaximum/MinimizedMaximum.cs) |
@@ -60,6 +61,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/447a22495ac69d531fc694d32e0faadef83a65cd/HasTrailingZeros/HasTrailingZeros.cs) |
 | 2981 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d93be3bbce02c9095d4ff9dc6af1a1c0ab4bbfac/LongSubstringThrice/LongSubstringThrice.cs) |
 | 3011 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/52090fe65559fd7413900e66f63bcef5d62b0d69/BitArraySort/BitArraySort.cs) |
+| 3042 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ed1fc93dcb47a193111584085564cfbe90049ad6/PrefixSuffixPairs/PrefixSuffixPairs.cs) |
 | 3071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c2b491bc100a2edbaf95a793cc3b508359e842aa/LetterY/LetterY.cs) |
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f6a5643032c6acf0fb638f4861a59fe063bb7cd0/minSubarray/minSubarray.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c5d19ada0b5374363d35532ead47360bbe448a98/StringCompIII/StringCompIII.cs) |
