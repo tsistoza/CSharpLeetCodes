@@ -11,6 +11,7 @@ As well as familiarize myself with algorithms not already known to me.
 # LeetCode Problems:
 | LeetCode # | Link                              |
 | :---       |                               ---:|
+| 42 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c15bf2e9b8e0ef724c1bda2bb331998c4e633683/TrapWater/TrapWater.cs) |
 | 128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/527ebabcfb1a1a7310ae41888cf93c52e780702b/LongestConsecutive/LongestConsecutive.cs) |
 | 145 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/58c0108ebd39a3b2161f33e0b6d8e61c87e098c7/BSTPostOrder/BSTPostOrder.cs) |
 | 146 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ebe80dbeccf20ceb3697e342f2bd7542e873d704/LRUCache/LRUCache.cs) |
@@ -22,6 +23,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a8f5347242d22925e97a5559b56fa3d82c7a75a8/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/31f95dcad2fa568b180a1eee5004b7af4b3092fd/MyCalendarII/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0ba8696cbb79e5da80ad82569d737e229b1d5c8a/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
+| 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/18db43414c9775ae0da890e78edac3b1fcfa5d6d/WordSubsets/WordSubsets.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bd26f677023e74bec9f9b56cf67009b020f696a2/SightSeeingPairs/SightSeeingPairs.cs) |
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5da401a7552783ac180d6e3baffc49986851e200/FlipColumns/FlipColumns.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1573e03af897fafbf395af5eadd0b308ffe2ddac/FlightBooking/FlightBooking.cs) |
