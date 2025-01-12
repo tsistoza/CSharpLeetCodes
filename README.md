@@ -43,6 +43,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/103299b647beae0d95cc1ad9182a35fe12f17ccf/MinimizedMaximum/MinimizedMaximum.cs) |
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/308fabfa02a6e8850777f351389847b442c3a1a1/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f11b79030cdbd5169a133d912184986fd19f0a7b/ValidArrangement/ValidArrangement.cs) |
+| 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/52c64a1727aa2cdc731059601c06ee3e87369f5a/ParenValid/ParenValid.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4cbaf1dd984a2f8bcc24df7e7ae7a3f134fb36d7/ConstructStr/ConstructStr.cs) |
 | 2270 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/833b3d5ed1bfa7b0a1ee46dc13084ce3523bed22/NumSplitArr/NumSplitArr.cs) |
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/2ce30da5d0f1e662c794888938da655228d94876/CSharpDynProg/LargestComb/LargestComb.cs) |
@@ -54,6 +55,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2425 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/03995b5b18cca3cd7109ef1e97201863beceadec/XorAllNums/XorAllNums.cs) |
 | 2466 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/040d430b04d5f35742bb20e097046910ba2bd9a8/CountGoodStr/CountGoodStr.cs) |
 | 2516 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0c68ceb9189bca6aece26956db4b8826dede5070/TakeCharacters/TakeCharacters.cs) |
+| 2529 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/3663c877f869daaee874ad1bad81b4b038f467b5/MaxCountPosNeg/MaxCountPosNeg.cs) |
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fca5b69f1f9564ee6827d8115264c8a46518dfe7/DifferenceOfSum/DifferenceOfSum.cs) |
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b02dc0039458d634bdfdfc411b444485e883440d/_CSharpDynProg/MaxNumChoose/MaxNumChoose.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/9931865419dd968d258ba52d97620848d722e15d/MinTimeToCell/MinTimeToCell.cs) |
