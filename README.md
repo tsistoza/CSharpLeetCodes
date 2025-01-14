@@ -19,6 +19,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 187 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bee1a38ec1b4ef1d0948c22db1ef7435c7348921/RepeatedDNA/RepeatedDNA.cs) |
 | 200 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/73d9a9cc3b1978a725940f5bf96dff1fb223fb4d/ContainVirus/NumberOfIslands.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5e1310b827f343f7b0893dddbcada17dcf6ae73b/IncreasingTriplet/IncreasingTriplet.cs) |
+| 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b06e9a3d00f11a05d3416e5a4dd0118f6160101f/DisjointIntervals/DisjointIntervals.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ac1ab1d886411de33b1df26c131a16bcdcc3370e/ClosestPalindrome/ClosestPalindrome.cs) |
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a8f5347242d22925e97a5559b56fa3d82c7a75a8/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/31f95dcad2fa568b180a1eee5004b7af4b3092fd/MyCalendarII/MyCalendarII.cs) |
@@ -59,6 +60,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fca5b69f1f9564ee6827d8115264c8a46518dfe7/DifferenceOfSum/DifferenceOfSum.cs) |
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b02dc0039458d634bdfdfc411b444485e883440d/_CSharpDynProg/MaxNumChoose/MaxNumChoose.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/9931865419dd968d258ba52d97620848d722e15d/MinTimeToCell/MinTimeToCell.cs) |
+| 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/8798ccb7a0c4e51a76b0330617b5b757b3fab4a3/FindThePrefix/FindThePrefix.cs) |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c7d025582acd8ce780aafa36164278bf011360e1/MakeSubseq/MakeSubseq.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e5ac6d57c3c6bddb18389613e4e100f9bbd12714/MaxKDivisible/MaxKDivisible.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d2df336b8a98bcf2f536443b90e98e4c350ca23b/FindBuilding/FindBuilding.cs) |
