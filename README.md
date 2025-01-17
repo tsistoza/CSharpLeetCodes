@@ -17,7 +17,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 146 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ebe80dbeccf20ceb3697e342f2bd7542e873d704/LRUCache/LRUCache.cs) |
 | 169 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1a83dfb385a8cbeeaa2500500674c5ec156bde14/MajorityElement/MajorityElement.cs) |
 | 187 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bee1a38ec1b4ef1d0948c22db1ef7435c7348921/RepeatedDNA/RepeatedDNA.cs) |
-| 190 | [Link]() |
+| 190 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f3d2ba5531d1708740942339b3c56594031afd6a/ReverseBits/ReverseBits.cs) |
 | 200 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/73d9a9cc3b1978a725940f5bf96dff1fb223fb4d/ContainVirus/NumberOfIslands.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5e1310b827f343f7b0893dddbcada17dcf6ae73b/IncreasingTriplet/IncreasingTriplet.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b06e9a3d00f11a05d3416e5a4dd0118f6160101f/DisjointIntervals/DisjointIntervals.cs) |
@@ -27,7 +27,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0ba8696cbb79e5da80ad82569d737e229b1d5c8a/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/18db43414c9775ae0da890e78edac3b1fcfa5d6d/WordSubsets/WordSubsets.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bd26f677023e74bec9f9b56cf67009b020f696a2/SightSeeingPairs/SightSeeingPairs.cs) |
-| 1053 | [Link]() |
+| 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/7daf6dbcd499b766e47f643e7e101c98f7235eab/XorPairs/PrevPermutation.cs) |
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5da401a7552783ac180d6e3baffc49986851e200/FlipColumns/FlipColumns.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1573e03af897fafbf395af5eadd0b308ffe2ddac/FlightBooking/FlightBooking.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/042217eef684f2d99dde66c32abf803cb535069b/CheckNDouble/CheckNDouble.cs) |
