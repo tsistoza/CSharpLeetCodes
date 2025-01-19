@@ -22,6 +22,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5e1310b827f343f7b0893dddbcada17dcf6ae73b/IncreasingTriplet/IncreasingTriplet.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b06e9a3d00f11a05d3416e5a4dd0118f6160101f/DisjointIntervals/DisjointIntervals.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ac1ab1d886411de33b1df26c131a16bcdcc3370e/ClosestPalindrome/ClosestPalindrome.cs) |
+| 617 | [Link]() |
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a8f5347242d22925e97a5559b56fa3d82c7a75a8/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/31f95dcad2fa568b180a1eee5004b7af4b3092fd/MyCalendarII/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0ba8696cbb79e5da80ad82569d737e229b1d5c8a/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
@@ -31,6 +32,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5da401a7552783ac180d6e3baffc49986851e200/FlipColumns/FlipColumns.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1573e03af897fafbf395af5eadd0b308ffe2ddac/FlightBooking/FlightBooking.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/042217eef684f2d99dde66c32abf803cb535069b/CheckNDouble/CheckNDouble.cs) |
+| 1368 | [Link]()
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/109932ed667bfa9f1110cf331149eed13dc2622b/ConstructKPalin/ConstructKPalin.cs) |
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/58c0108ebd39a3b2161f33e0b6d8e61c87e098c7/KLengthApart/KLengthApart.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4e4186ba9ee644e2f294da2148f2f4be35150129/DefuseTheBomb/DefuseTheBomb.cs) |
