@@ -22,6 +22,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5e1310b827f343f7b0893dddbcada17dcf6ae73b/IncreasingTriplet/IncreasingTriplet.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b06e9a3d00f11a05d3416e5a4dd0118f6160101f/DisjointIntervals/DisjointIntervals.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ac1ab1d886411de33b1df26c131a16bcdcc3370e/ClosestPalindrome/ClosestPalindrome.cs) |
+| 566 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b21abad53bf821be4cb835a76d600636268dfc8e/ReshapeMatrix/ReshapeMatrix.cs) |
 | 617 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/89d90911f97fd25e048bbcaa2ce927dee3adeb47/MergeTwoBT/MergeTwoBT.cs) |
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a8f5347242d22925e97a5559b56fa3d82c7a75a8/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/31f95dcad2fa568b180a1eee5004b7af4b3092fd/MyCalendarII/MyCalendarII.cs) |
@@ -68,6 +69,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c7d025582acd8ce780aafa36164278bf011360e1/MakeSubseq/MakeSubseq.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e5ac6d57c3c6bddb18389613e4e100f9bbd12714/MaxKDivisible/MaxKDivisible.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d2df336b8a98bcf2f536443b90e98e4c350ca23b/FindBuilding/FindBuilding.cs) |
+| 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c3e495d1c5944ef4cdb37a633e952120636cc9d5/CountSubWithMax/CountSubWithMax.cs) |
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/447a22495ac69d531fc694d32e0faadef83a65cd/HasTrailingZeros/HasTrailingZeros.cs) |
 | 2981 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d93be3bbce02c9095d4ff9dc6af1a1c0ab4bbfac/LongSubstringThrice/LongSubstringThrice.cs) |
 | 3011 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/52090fe65559fd7413900e66f63bcef5d62b0d69/BitArraySort/BitArraySort.cs) |
