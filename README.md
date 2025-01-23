@@ -21,6 +21,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 200 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/73d9a9cc3b1978a725940f5bf96dff1fb223fb4d/ContainVirus/NumberOfIslands.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5e1310b827f343f7b0893dddbcada17dcf6ae73b/IncreasingTriplet/IncreasingTriplet.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b06e9a3d00f11a05d3416e5a4dd0118f6160101f/DisjointIntervals/DisjointIntervals.cs) |
+| 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ac1ab1d886411de33b1df26c131a16bcdcc3370e/ClosestPalindrome/ClosestPalindrome.cs) |
 | 566 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b21abad53bf821be4cb835a76d600636268dfc8e/ReshapeMatrix/ReshapeMatrix.cs) |
 | 617 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/89d90911f97fd25e048bbcaa2ce927dee3adeb47/MergeTwoBT/MergeTwoBT.cs) |
@@ -32,6 +33,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/7daf6dbcd499b766e47f643e7e101c98f7235eab/XorPairs/PrevPermutation.cs) |
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5da401a7552783ac180d6e3baffc49986851e200/FlipColumns/FlipColumns.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1573e03af897fafbf395af5eadd0b308ffe2ddac/FlightBooking/FlightBooking.cs) |
+| 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountServers/CountServers.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/042217eef684f2d99dde66c32abf803cb535069b/CheckNDouble/CheckNDouble.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fb32ef4266af67c7a6b69a8aee7e25da5ea6838c/FollowSigns/FollowSigns.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/109932ed667bfa9f1110cf331149eed13dc2622b/ConstructKPalin/ConstructKPalin.cs) |
