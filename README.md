@@ -45,6 +45,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1854 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/13392c6eb3ec8fd71e5a6422cdcb1f42f7086984/MaximumPopulation/MaximumPopulation.cs) |
 | 1855 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e71c419b81afbb35dc7cf3389004a53877ca0d20/MaxDistBetweenVals/MaxDistBetweenVals.cs) |
 | 1893 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a67aeedb3754fe7e6e6337413f89b93b0972d6c3/CheckIntegerRange/CheckIntegerRange.cs) |
+| 1894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReplaceChalk/ReplaceChalk.cs) |
 | 1947 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/05a8b953dcbc6ebfbd3cfec28fa9b4f6d2d79be9/MaxCompatibality/MaxCompatibility.cs) |
 | 1975 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/728bbcbe6f3fd94ea141da7e108a72b14a6eb42f/MaximumMatrixSum/MaxMatrixSum.cs) |
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a181dff628cd8ba1797b0a8f2108fb00f5026aa4/TwoBestEvents/TwoBestEvents.cs) |
@@ -52,6 +53,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/308fabfa02a6e8850777f351389847b442c3a1a1/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f11b79030cdbd5169a133d912184986fd19f0a7b/ValidArrangement/ValidArrangement.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/52c64a1727aa2cdc731059601c06ee3e87369f5a/ParenValid/ParenValid.cs) |
+| 2127 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxEmployees/MaxEmployees.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4cbaf1dd984a2f8bcc24df7e7ae7a3f134fb36d7/ConstructStr/ConstructStr.cs) |
 | 2270 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/833b3d5ed1bfa7b0a1ee46dc13084ce3523bed22/NumSplitArr/NumSplitArr.cs) |
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/2ce30da5d0f1e662c794888938da655228d94876/CSharpDynProg/LargestComb/LargestComb.cs) |
