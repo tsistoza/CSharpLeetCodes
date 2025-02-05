@@ -40,10 +40,12 @@ As well as familiarize myself with algorithms not already known to me.
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/109932ed667bfa9f1110cf331149eed13dc2622b/ConstructKPalin/ConstructKPalin.cs) |
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/58c0108ebd39a3b2161f33e0b6d8e61c87e098c7/KLengthApart/KLengthApart.cs) |
 | 1455 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PrefixOccurence/PrefixOccurence.cs) |
+| 1497 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ArrPairsDivK/ArrPairsDivK.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4e4186ba9ee644e2f294da2148f2f4be35150129/DefuseTheBomb/DefuseTheBomb.cs) |
 | 1752 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SortedAndRotated/SortedAndRotated.cs) |
 | 1769 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b88a61391224aa7dfed2bc36a26d44f5fa4d172f/MoveBallsToBox/MoveBallsToBox.cs) |
 | 1792 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0f2889f3955f0684ebeb5de7c8463ebb4ed2b519/MaxAvgRatio/MaxAvgRatio.cs) |
+| 1800 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ArrPairsDivK/ArrPairsDivK.cs) |
 | 1829 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4147be754fcf548a9f9fd32e3c1877d412442331/MaxXor/MaxXor.cs) |
 | 1854 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/13392c6eb3ec8fd71e5a6422cdcb1f42f7086984/MaximumPopulation/MaximumPopulation.cs) |
 | 1855 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e71c419b81afbb35dc7cf3389004a53877ca0d20/MaxDistBetweenVals/MaxDistBetweenVals.cs) |
