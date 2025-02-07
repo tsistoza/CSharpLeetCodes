@@ -71,6 +71,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2425 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/03995b5b18cca3cd7109ef1e97201863beceadec/XorAllNums/XorAllNums.cs) |
 | 2466 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/040d430b04d5f35742bb20e097046910ba2bd9a8/CountGoodStr/CountGoodStr.cs) |
 | 2493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivideNodes/DivideNodes.cs) |
+| 2490 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CircularSentence/CircularSentence.cs) |
 | 2516 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0c68ceb9189bca6aece26956db4b8826dede5070/TakeCharacters/TakeCharacters.cs) |
 | 2529 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/3663c877f869daaee874ad1bad81b4b038f467b5/MaxCountPosNeg/MaxCountPosNeg.cs) |
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fca5b69f1f9564ee6827d8115264c8a46518dfe7/DifferenceOfSum/DifferenceOfSum.cs) |
@@ -87,6 +88,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 3042 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/ed1fc93dcb47a193111584085564cfbe90049ad6/PrefixSuffixPairs/PrefixSuffixPairs.cs) |
 | 3071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c2b491bc100a2edbaf95a793cc3b508359e842aa/LetterY/LetterY.cs) |
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/f6a5643032c6acf0fb638f4861a59fe063bb7cd0/minSubarray/minSubarray.cs) |
+| 3160 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumDistinctColors/NumDistinctColors.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c5d19ada0b5374363d35532ead47360bbe448a98/StringCompIII/StringCompIII.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/71399b2369fc70dcc4d84d02f6c2adbd0dbfc03c/MinBitwiseArray/MinBitwiseArray.cs) |
 | LongestSubSeq | [WIP]() |
