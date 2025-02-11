@@ -51,6 +51,8 @@ As well as familiarize myself with algorithms not already known to me.
 | 1855 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e71c419b81afbb35dc7cf3389004a53877ca0d20/MaxDistBetweenVals/MaxDistBetweenVals.cs) |
 | 1893 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a67aeedb3754fe7e6e6337413f89b93b0972d6c3/CheckIntegerRange/CheckIntegerRange.cs) |
 | 1894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReplaceChalk/ReplaceChalk.cs) |
+| 1910 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RemoveOccurences/RemoveOccurences.cs) |
+| 1942 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SmallestOccupiedChair/SmallestOccupiedChair.cs) |
 | 1947 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/05a8b953dcbc6ebfbd3cfec28fa9b4f6d2d79be9/MaxCompatibality/MaxCompatibility.cs) |
 | 1975 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/728bbcbe6f3fd94ea141da7e108a72b14a6eb42f/MaximumMatrixSum/MaxMatrixSum.cs) |
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a181dff628cd8ba1797b0a8f2108fb00f5026aa4/TwoBestEvents/TwoBestEvents.cs) |
