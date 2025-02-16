@@ -72,6 +72,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/53005eac56a5a74ef35791d7dfda152d00b081e2/ReverseOddBT/ReverseOddBT.cs) |
 | 2425 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/03995b5b18cca3cd7109ef1e97201863beceadec/XorAllNums/XorAllNums.cs) |
 | 2466 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/040d430b04d5f35742bb20e097046910ba2bd9a8/CountGoodStr/CountGoodStr.cs) |
+| 2491 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DividePlayers/DividePlayers.cs) |
 | 2493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivideNodes/DivideNodes.cs) |
 | 2490 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CircularSentence/CircularSentence.cs) |
 | 2516 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0c68ceb9189bca6aece26956db4b8826dede5070/TakeCharacters/TakeCharacters.cs) |
@@ -80,6 +81,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxChooseNum/MaxChooseNum.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/9931865419dd968d258ba52d97620848d722e15d/MinTimeToCell/MinTimeToCell.cs) |
 | 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/8798ccb7a0c4e51a76b0330617b5b757b3fab4a3/FindThePrefix/FindThePrefix.cs) |
+| 2698 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PunishmentNumber/PunishmentNumber.cs) |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/c7d025582acd8ce780aafa36164278bf011360e1/MakeSubseq/MakeSubseq.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/e5ac6d57c3c6bddb18389613e4e100f9bbd12714/MaxKDivisible/MaxKDivisible.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/d2df336b8a98bcf2f536443b90e98e4c350ca23b/FindBuilding/FindBuilding.cs) |
