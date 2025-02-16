@@ -20,15 +20,11 @@ namespace Solution
             {
                 int targetSkill = skill[0] + skill[i];
                 List<int> bucket = skill.ToList();
-                bucket.Remove(skill[0]);
-                bucket.Remove(skill[i]);
-                List<int> team = new List<int>() { skill[0], skill[i] };
-                teams.Add(team);
 
                 int target = targetSkill - bucket[0];
                 while (bucket.Contains(target))
                 {
-                    team = new List<int>() { bucket[0], target };
+                    List<int> team = new List<int>() { bucket[0], target };
                     bucket.RemoveAt(0);
                     bucket.Remove(target);
                     teams.Add(team);
