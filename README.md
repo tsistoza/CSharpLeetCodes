@@ -33,11 +33,13 @@ As well as familiarize myself with algorithms not already known to me.
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bd26f677023e74bec9f9b56cf67009b020f696a2/SightSeeingPairs/SightSeeingPairs.cs) |
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/7daf6dbcd499b766e47f643e7e101c98f7235eab/XorPairs/PrevPermutation.cs) |
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/5da401a7552783ac180d6e3baffc49986851e200/FlipColumns/FlipColumns.cs) |
+| 1079 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TilePossibilities/TilePossibilities.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1573e03af897fafbf395af5eadd0b308ffe2ddac/FlightBooking/FlightBooking.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountServers/CountServers.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/042217eef684f2d99dde66c32abf803cb535069b/CheckNDouble/CheckNDouble.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fb32ef4266af67c7a6b69a8aee7e25da5ea6838c/FollowSigns/FollowSigns.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/109932ed667bfa9f1110cf331149eed13dc2622b/ConstructKPalin/ConstructKPalin.cs) |
+| 1415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KthHappyString/KthHappyString.cs) |
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/58c0108ebd39a3b2161f33e0b6d8e61c87e098c7/KLengthApart/KLengthApart.cs) |
 | 1455 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PrefixOccurence/PrefixOccurence.cs) |
 | 1497 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ArrPairsDivK/ArrPairsDivK.cs) |
