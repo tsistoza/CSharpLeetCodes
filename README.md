@@ -29,6 +29,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a8f5347242d22925e97a5559b56fa3d82c7a75a8/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/31f95dcad2fa568b180a1eee5004b7af4b3092fd/MyCalendarII/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0ba8696cbb79e5da80ad82569d737e229b1d5c8a/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
+| 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CreateBT/CreateBT.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/18db43414c9775ae0da890e78edac3b1fcfa5d6d/WordSubsets/WordSubsets.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bd26f677023e74bec9f9b56cf67009b020f696a2/SightSeeingPairs/SightSeeingPairs.cs) |
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/7daf6dbcd499b766e47f643e7e101c98f7235eab/XorPairs/PrevPermutation.cs) |
@@ -37,6 +38,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1573e03af897fafbf395af5eadd0b308ffe2ddac/FlightBooking/FlightBooking.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountServers/CountServers.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/042217eef684f2d99dde66c32abf803cb535069b/CheckNDouble/CheckNDouble.cs) |
+| 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructTargetWithSums/ConstructTargetWithSums.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fb32ef4266af67c7a6b69a8aee7e25da5ea6838c/FollowSigns/FollowSigns.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/109932ed667bfa9f1110cf331149eed13dc2622b/ConstructKPalin/ConstructKPalin.cs) |
 | 1415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KthHappyString/KthHappyString.cs) |
