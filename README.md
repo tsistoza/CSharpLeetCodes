@@ -29,6 +29,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a8f5347242d22925e97a5559b56fa3d82c7a75a8/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/31f95dcad2fa568b180a1eee5004b7af4b3092fd/MyCalendarII/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0ba8696cbb79e5da80ad82569d737e229b1d5c8a/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
+| 873 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestFibonacciSeq/LongestFibonacciSeq.cs) |
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CreateBT/CreateBT.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/18db43414c9775ae0da890e78edac3b1fcfa5d6d/WordSubsets/WordSubsets.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/bd26f677023e74bec9f9b56cf67009b020f696a2/SightSeeingPairs/SightSeeingPairs.cs) |
@@ -59,6 +60,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1942 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SmallestOccupiedChair/SmallestOccupiedChair.cs) |
 | 1947 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/05a8b953dcbc6ebfbd3cfec28fa9b4f6d2d79be9/MaxCompatibality/MaxCompatibility.cs) |
 | 1975 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/728bbcbe6f3fd94ea141da7e108a72b14a6eb42f/MaximumMatrixSum/MaxMatrixSum.cs) |
+| 2017 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/GridGame/GridGame.cs) |
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/a181dff628cd8ba1797b0a8f2108fb00f5026aa4/TwoBestEvents/TwoBestEvents.cs) |
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/103299b647beae0d95cc1ad9182a35fe12f17ccf/MinimizedMaximum/MinimizedMaximum.cs) |
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/308fabfa02a6e8850777f351389847b442c3a1a1/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
