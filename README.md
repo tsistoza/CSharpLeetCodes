@@ -49,6 +49,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4e4186ba9ee644e2f294da2148f2f4be35150129/DefuseTheBomb/DefuseTheBomb.cs) |
 | 1752 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SortedAndRotated/SortedAndRotated.cs) |
 | 1769 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/b88a61391224aa7dfed2bc36a26d44f5fa4d172f/MoveBallsToBox/MoveBallsToBox.cs) |
+| 1780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PowerOfThree/PowerOfThree.cs) |
 | 1792 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/0f2889f3955f0684ebeb5de7c8463ebb4ed2b519/MaxAvgRatio/MaxAvgRatio.cs) |
 | 1800 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ArrPairsDivK/ArrPairsDivK.cs) |
 | 1829 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/4147be754fcf548a9f9fd32e3c1877d412442331/MaxXor/MaxXor.cs) |
@@ -85,6 +86,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2529 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/3663c877f869daaee874ad1bad81b4b038f467b5/MaxCountPosNeg/MaxCountPosNeg.cs) |
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/fca5b69f1f9564ee6827d8115264c8a46518dfe7/DifferenceOfSum/DifferenceOfSum.cs) |
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxChooseNum/MaxChooseNum.cs) |
+| 2570 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Merge2DArrays/Merge2DArrays.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/9931865419dd968d258ba52d97620848d722e15d/MinTimeToCell/MinTimeToCell.cs) |
 | 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/8798ccb7a0c4e51a76b0330617b5b757b3fab4a3/FindThePrefix/FindThePrefix.cs) |
 | 2698 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PunishmentNumber/PunishmentNumber.cs) |
