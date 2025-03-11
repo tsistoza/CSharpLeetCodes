@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public static class Globals
 {
-    public static string word = "ieaouqqieaouqq";
-    public static int k = 1;
+    public static string word = "aeiou";
+    public static int k = 0;
 }
 
 namespace Solution
@@ -29,10 +29,7 @@ namespace Solution
                     else dict[word[i + windowSize - 1]]++;
 
                     if (dict['a'] > 0 && dict['e'] > 0 && dict['i'] > 0 && dict['o'] > 0 && dict['u'] > 0 && consonants == k)
-                    {
                         numStrings++;
-                        break;
-                    }
                 }
             }
 
