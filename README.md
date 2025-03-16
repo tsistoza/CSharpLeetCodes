@@ -18,10 +18,12 @@ As well as familiarize myself with algorithms not already known to me.
 | 128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestConsecutive/LongestConsecutive.cs) |
 | 145 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BSTPostOrder/BSTPostOrder.cs) |
 | 146 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LRUCache/LRUCache.cs) |
+| 162 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PeakElement/PeakElement.cs) |
 | 169 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MajorityElement/MajorityElement.cs) |
 | 187 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RepeatedDNA/RepeatedDNA.cs) |
 | 190 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReverseBits/ReverseBits.cs) |
 | 200 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ContainVirus/NumberOfIslands.cs) |
+| 222 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountTreeNodes/CountTreeNodes.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/IncreasingTriplet/IncreasingTriplet.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DisjointIntervals/DisjointIntervals.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
