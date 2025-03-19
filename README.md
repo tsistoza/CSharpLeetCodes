@@ -80,6 +80,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2376 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSpecialInt/CountSpecialInt.cs) |
 | 2379 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinRecolorBlocks/MinRecolorBlocks.cs) |
 | 2381 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ShiftLettersII/ShiftLettersII.cs) |
+| 2401 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NiceSubarray/NiceSubarray.cs) |
 | 2413 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SmallestMultiple/SmallMultiple.cs) |
 | 2415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReverseOddBT/ReverseOddBT.cs) |
 | 2425 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XorAllNums/XorAllNums.cs) |
@@ -109,6 +110,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/minSubarray/minSubarray.cs) |
 | 3160 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumDistinctColors/NumDistinctColors.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/StringCompIII/StringCompIII.cs) |
+| 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BinaryArrayOpsI/BinaryArrayOpsI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArrayTransformation/ZeroArrayTransformation.cs) |
