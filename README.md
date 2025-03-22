@@ -70,6 +70,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinimizedMaximum/MinimizedMaximum.cs) |
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidArrangement/ValidArrangement.cs) |
+| 2115 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RecipeSupply/RecipeSupply.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
 | 2127 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxEmployees/MaxEmployees.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructStr/ConstructStr.cs) |
@@ -77,6 +78,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/LargestComb/LargestComb.cs) |
 | 2290 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinimumObstacle/MinimumObstacle.cs) |
 | 2295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ArrayChange/ArrayChange.cs) |
+| 2375 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DIString/DIString.cs) |
 | 2376 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSpecialInt/CountSpecialInt.cs) |
 | 2379 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinRecolorBlocks/MinRecolorBlocks.cs) |
 | 2381 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ShiftLettersII/ShiftLettersII.cs) |
