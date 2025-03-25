@@ -23,8 +23,10 @@ As well as familiarize myself with algorithms not already known to me.
 | 187 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RepeatedDNA/RepeatedDNA.cs) |
 | 190 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReverseBits/ReverseBits.cs) |
 | 200 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ContainVirus/NumberOfIslands.cs) |
+| 213 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberII/HouseRobberII.cs) |
 | 222 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountTreeNodes/CountTreeNodes.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/IncreasingTriplet/IncreasingTriplet.cs) |
+| 337 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIII/HouseRobberIII.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DisjointIntervals/DisjointIntervals.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
