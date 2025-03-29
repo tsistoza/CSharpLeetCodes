@@ -92,11 +92,13 @@ As well as familiarize myself with algorithms not already known to me.
 | 2491 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DividePlayers/DividePlayers.cs) |
 | 2493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivideNodes/DivideNodes.cs) |
 | 2490 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CircularSentence/CircularSentence.cs) |
+| 2503 | [Link]() |
 | 2516 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TakeCharacters/TakeCharacters.cs) |
 | 2523 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPrimeNumbers/ClosestPrimeNumbers.cs) |
 | 2529 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxCountPosNeg/MaxCountPosNeg.cs) |
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DifferenceOfSum/DifferenceOfSum.cs) |
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxChooseNum/MaxChooseNum.cs) |
+| 2560 | [Link]() |
 | 2570 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Merge2DArrays/Merge2DArrays.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToCell/MinTimeToCell.cs) |
 | 2579 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountColoredCells/CountColoredCells.cs) |
