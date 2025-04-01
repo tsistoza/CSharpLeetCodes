@@ -75,6 +75,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2115 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RecipeSupply/RecipeSupply.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
 | 2127 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxEmployees/MaxEmployees.cs) |
+| 2140 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BrainpowerQs/BrainpowerQs.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructStr/ConstructStr.cs) |
 | 2270 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumSplitArr/NumSplitArr.cs) |
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/LargestComb/LargestComb.cs) |
@@ -104,6 +105,7 @@ As well as familiarize myself with algorithms not already known to me.
 | 2579 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountColoredCells/CountColoredCells.cs) |
 | 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindThePrefix/FindThePrefix.cs) |
 | 2698 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PunishmentNumber/PunishmentNumber.cs) |
+| 2780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinValidSplit/MinValidSplit.cs) |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MakeSubseq/MakeSubseq.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxKDivisible/MaxKDivisible.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindBuilding/FindBuilding.cs) |
