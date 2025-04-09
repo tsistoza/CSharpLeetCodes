@@ -3,14 +3,16 @@ Hi all, this is a collection of leetcode problems that I have done over time. I 
 Nor do I claim them as one. These are merely coding problems I've done as a hobby to sharpen my coding skills on a particular programming language.
 As well as familiarize myself with algorithms not already known to me.
 
+Decided to add different variants of ways to solve problems, since there are going to be several ways to solve a problem. Note these only apply to coding problems I have done multiple times.
+
 ### **Again, these are not solutions. However, they are tested, and return the correct answers.**
 
 # LeetCode C++ - Different LeetCode Problems
 ### [CppLeetCode](https://github.com/tsistoza/CppLeetCode)
 
 # LeetCode Problems:
-| LeetCode # | Link                              |
-| :---       |                               ---:|
+| LeetCode # | Link                              | Type |
+| :---       |                               ---:| :---     |
 | 41 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FirstMissingPositive/FirstMissingPositive.cs) |
 | 42 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TrapWater/TrapWater.cs) |
 | 49 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/GroupAnagrams/GroupAnagrams.cs) |
@@ -28,6 +30,9 @@ As well as familiarize myself with algorithms not already known to me.
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/IncreasingTriplet/IncreasingTriplet.cs) |
 | 337 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIII/HouseRobberIII.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DisjointIntervals/DisjointIntervals.cs) |
+| 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1483154653072cffb69a0fa73a0fbe0998cd5e11/DivisibleSubset/DivisibleSubset.cs) | Brute Force |
+| 368 | [WIP]() | Dynamic Programming |
+| 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/cc2ef579424f191dd54e32fe3e65910e6b92a728/PartitionSubsets/PartitionSubsets.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
 | 566 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReshapeMatrix/ReshapeMatrix.cs) |
