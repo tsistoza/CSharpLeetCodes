@@ -31,7 +31,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 337 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIII/HouseRobberIII.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DisjointIntervals/DisjointIntervals.cs) |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1483154653072cffb69a0fa73a0fbe0998cd5e11/DivisibleSubset/DivisibleSubset.cs) | Brute Force |
-| 368 | [WIP]() | Dynamic Programming |
+| 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSubsetDP/DivisibleSubsetDP.cs) | Dynamic Programming |
 | 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/cc2ef579424f191dd54e32fe3e65910e6b92a728/PartitionSubsets/PartitionSubsets.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
