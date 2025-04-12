@@ -114,11 +114,13 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2698 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PunishmentNumber/PunishmentNumber.cs) |
 | 2780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinValidSplit/MinValidSplit.cs) |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MakeSubseq/MakeSubseq.cs) |
+| 2843 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSymInt/CountSymInt.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxKDivisible/MaxKDivisible.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindBuilding/FindBuilding.cs) |
 | 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubWithMax/CountSubWithMax.cs) |
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HasTrailingZeros/HasTrailingZeros.cs) |
 | 2981 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongSubstringThrice/LongSubstringThrice.cs) |
+| 2999 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountPowerfulInt/CountPowerfulInt.cs) |
 | 3011 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BitArraySort/BitArraySort.cs) |
 | 3042 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PrefixSuffixPairs/PrefixSuffixPairs.cs) |
 | 3071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LetterY/LetterY.cs) |
