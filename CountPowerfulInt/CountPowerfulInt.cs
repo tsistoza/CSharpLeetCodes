@@ -18,7 +18,7 @@ namespace Solution
         {
             long count = 0;
             long strNum = Convert.ToInt64(num);
-            Console.WriteLine(strNum);
+            //Console.WriteLine(strNum);
             if (strNum <= ub && strNum >= lb) count++;
             if (n < 0) return 0;
 
