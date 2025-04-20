@@ -13,6 +13,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 # LeetCode Problems:
 | LeetCode # | Link                              | Type |
 | :---       |                               ---:| :---     |
+| 38 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountAndSay/CountAndSay.cs) |
 | 41 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FirstMissingPositive/FirstMissingPositive.cs) |
 | 42 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TrapWater/TrapWater.cs) |
 | 49 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/GroupAnagrams/GroupAnagrams.cs) |
@@ -108,6 +109,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2529 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxCountPosNeg/MaxCountPosNeg.cs) |
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DifferenceOfSum/DifferenceOfSum.cs) |
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxChooseNum/MaxChooseNum.cs) |
+| 2563 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountFairPairs/CountFairPairs.cs) |
 | 2560 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIV/HouseRobberIV.cs) |
 | 2570 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Merge2DArrays/Merge2DArrays.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToCell/MinTimeToCell.cs) |
