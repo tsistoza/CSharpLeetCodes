@@ -28,12 +28,13 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 200 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ContainVirus/NumberOfIslands.cs) |
 | 213 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberII/HouseRobberII.cs) |
 | 222 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountTreeNodes/CountTreeNodes.cs) |
+| 240 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Search2DMatrixII/Search2DMatrixII.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/IncreasingTriplet/IncreasingTriplet.cs) |
 | 337 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIII/HouseRobberIII.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DisjointIntervals/DisjointIntervals.cs) |
-| 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/1483154653072cffb69a0fa73a0fbe0998cd5e11/DivisibleSubset/DivisibleSubset.cs) | Brute Force |
+| 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSubset/DivisibleSubset.cs) | Brute Force |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSubsetDP/DivisibleSubsetDP.cs) | Dynamic Programming |
-| 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/cc2ef579424f191dd54e32fe3e65910e6b92a728/PartitionSubsets/PartitionSubsets.cs) |
+| 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PartitionSubsets/PartitionSubsets.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
 | 566 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReshapeMatrix/ReshapeMatrix.cs) |
@@ -54,6 +55,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CheckNDouble/CheckNDouble.cs) |
 | 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructTargetWithSums/ConstructTargetWithSums.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FollowSigns/FollowSigns.cs) |
+| 1399 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountLargestGroup/CountLargestGroup.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructKPalin/ConstructKPalin.cs) |
 | 1415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KthHappyString/KthHappyString.cs) |
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KLengthApart/KLengthApart.cs) |
