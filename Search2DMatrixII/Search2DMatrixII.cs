@@ -26,7 +26,7 @@ namespace Solution
                 while (low < high && matrix[row, 0] <= target && matrix[row, matrix.GetLength(1)-1] >= target)
                 {
                     mid = low + (high - low) / 2;
-                    Console.WriteLine($"low = {low}, high = {high}, mid = {mid}, matrix[{row},{mid}] = {matrix[row, mid]}");
+                    //Console.WriteLine($"low = {low}, high = {high}, mid = {mid}, matrix[{row},{mid}] = {matrix[row, mid]}");
                     if (matrix[row, mid] < target) low = mid + 1;
                     if (matrix[row, mid] > target) high = mid - 1;
                 }
