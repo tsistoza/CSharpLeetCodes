@@ -20,7 +20,6 @@ namespace Solution
                 x /= 10;
             }
 
-            if (sum >= 10) sum = digitSum(sum); 
             return sum;
         }
         public int CountLargestGroup(int n)
