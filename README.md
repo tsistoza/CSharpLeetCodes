@@ -52,6 +52,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FlightBooking/FlightBooking.cs) |
 | 1123 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LowestCommonAncestor/LowestCommonAncestor.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountServers/CountServers.cs) |
+| 1295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountNumEvenDigits/CountNumEvenDigits.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CheckNDouble/CheckNDouble.cs) |
 | 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructTargetWithSums/ConstructTargetWithSums.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FollowSigns/FollowSigns.cs) |
@@ -82,6 +83,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TwoBestEvents/TwoBestEvents.cs) |
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinimizedMaximum/MinimizedMaximum.cs) |
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
+| 2071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxNumTasks/MaxNumTasks.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidArrangement/ValidArrangement.cs) |
 | 2115 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RecipeSupply/RecipeSupply.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
