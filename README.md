@@ -42,6 +42,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MyCalendarII/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
+| 790 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DominoTrominoTiling/DominoTrominoTiling.cs) |
 | 873 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestFibonacciSeq/LongestFibonacciSeq.cs) |
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CreateBT/CreateBT.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/WordSubsets/WordSubsets.cs) |
@@ -50,6 +51,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FlipColumns/FlipColumns.cs) |
 | 1079 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TilePossibilities/TilePossibilities.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FlightBooking/FlightBooking.cs) |
+| 1128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumEquivalentDomino/NumEquivalentDomino.cs) |
 | 1123 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LowestCommonAncestor/LowestCommonAncestor.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountServers/CountServers.cs) |
 | 1295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountNumEvenDigits/CountNumEvenDigits.cs) |
