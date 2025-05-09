@@ -13,6 +13,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 # LeetCode Problems:
 | LeetCode # | Link                              | Type |
 | :---       |                               ---:| :---     |
+| 2 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/AddTwoNum/AddTwoNum.cs) | Using LL class from .NET |
 | 38 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountAndSay/CountAndSay.cs) |
 | 41 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FirstMissingPositive/FirstMissingPositive.cs) |
 | 42 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TrapWater/TrapWater.cs) |
@@ -141,6 +142,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BinaryArrayOpsI/BinaryArrayOpsI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
+| 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToLastRoomII/MinTimeToLastRoomII.cs) |
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArrayTransformation/ZeroArrayTransformation.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubarraysCondition/CountSubarraysCondition.cs) |
 | LongestSubSeq | [WIP]() |
