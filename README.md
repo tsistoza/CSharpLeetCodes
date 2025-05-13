@@ -87,6 +87,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinimizedMaximum/MinimizedMaximum.cs) |
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
 | 2071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxNumTasks/MaxNumTasks.cs) |
+| 2094 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ThreeDigitEvenNum/ThreeDigitEvenNum.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidArrangement/ValidArrangement.cs) |
 | 2115 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RecipeSupply/RecipeSupply.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
@@ -142,6 +143,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BinaryArrayOpsI/BinaryArrayOpsI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
+| 3335 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TotalCharsAfterTransformI/TotalCharsAfterTransformI.cs) |
 | 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToLastRoomII/MinTimeToLastRoomII.cs) |
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArrayTransformation/ZeroArrayTransformation.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubarraysCondition/CountSubarraysCondition.cs) |
