@@ -31,25 +31,17 @@ namespace Solution
                 if (hammingDistance > 1) return false;
             }
 
-            return (hammingDistance == 1);
+            return true;
         }
         public IList<string> GetWordsInLongestSubsequence(string[] words, int[] groups)
         {
-            List<int> countGroups = new List<int>(Enumerable.Repeat(0, groups.Length));
-            int numGroups = 0;
-            foreach (int i in groups)
-            {
-                countGroups[i-1]++;
-                if (countGroups[i-1] == 1) numGroups++;
-            }
-
             List<string> result = new List<string>();
             List<List<string>> dp = new List<List<string>>();
             List<int> prev = new List<int>();
             
             for (int i=0; i<words.Length; i++)
             {
-                if (dp.Count < 0)
+                if (dp.Count < 0) // init dp
                 {
                     dp.Add(new List<string>() { words[0] });
                     prev.Add(groups[i]);
@@ -60,17 +52,17 @@ namespace Solution
                 bool append = false;
                 for (; index<prev.Count; index++)
                 {
-                    if (prev[index] == groups[i]) continue;
+                    if (prev[index] == groups[i]) continue; // check last group for each last elem of lists
                     if (dp[index][0].Length != words[i].Length) continue;
                     if (!checkHamDist(dp[index][dp[index].Count - 1], words[i])) continue;
 
                     dp[index].Add(words[i]);
                     prev[index] = groups[i];
-                    if (dp[index].Count > result.Count) result = dp[index];
+                    if (dp[index].Count > result.Count) result = dp[index]; // check if longest subsequence
                     append = true;
                 }
 
-                if (!append) 
+                if (!append) // If words[i] is added to end of list, no longer possible for any list starting with words[i], to be the longest subsequence
                 {
                     dp.Add(new List<string>() { words[i] });
                     prev.Add(groups[i]);
