@@ -18,6 +18,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 41 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FirstMissingPositive/FirstMissingPositive.cs) |
 | 42 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TrapWater/TrapWater.cs) |
 | 49 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/GroupAnagrams/GroupAnagrams.cs) |
+| 75 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SortColors/SortColors.cs) |
 | 113 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PathSumII/PathSumII.cs) |
 | 128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestConsecutive/LongestConsecutive.cs) |
 | 145 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BSTPostOrder/BSTPostOrder.cs) |
@@ -129,6 +130,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MakeSubseq/MakeSubseq.cs) |
 | 2843 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSymInt/CountSymInt.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxKDivisible/MaxKDivisible.cs) |
+| 2901 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/UnequalAdjGroupsII/UnequalAdjGroupsII.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindBuilding/FindBuilding.cs) |
 | 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubWithMax/CountSubWithMax.cs) |
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HasTrailingZeros/HasTrailingZeros.cs) |
