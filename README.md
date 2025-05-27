@@ -78,6 +78,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1829 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxXor/MaxXor.cs) |
 | 1854 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaximumPopulation/MaximumPopulation.cs) |
 | 1855 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxDistBetweenVals/MaxDistBetweenVals.cs) |
+| 1857 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LargestColorVal/LargestColorVal.cs) |
 | 1863 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubsetSumXor/SubsetSumXor.cs) |
 | 1893 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CheckIntegerRange/CheckIntegerRange.cs) |
 | 1894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReplaceChalk/ReplaceChalk.cs) |
@@ -132,6 +133,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MakeSubseq/MakeSubseq.cs) |
 | 2843 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSymInt/CountSymInt.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxKDivisible/MaxKDivisible.cs) |
+| 2894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSums/DivisibleSums.cs) |
 | 2901 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/UnequalAdjGroupsII/UnequalAdjGroupsII.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindBuilding/FindBuilding.cs) |
 | 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubWithMax/CountSubWithMax.cs) |
