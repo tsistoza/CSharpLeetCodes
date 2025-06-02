@@ -23,6 +23,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 94 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/InorderTraversal/InorderTraversal.cs) |
 | 113 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PathSumII/PathSumII.cs) |
 | 128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestConsecutive/LongestConsecutive.cs) |
+| 135 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Candy/Candy.cs) |
 | 145 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BSTPostOrder/BSTPostOrder.cs) |
 | 146 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LRUCache/LRUCache.cs) |
 | 162 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PeakElement/PeakElement.cs) |
@@ -135,6 +136,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxKDivisible/MaxKDivisible.cs) |
 | 2894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSums/DivisibleSums.cs) |
 | 2901 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/UnequalAdjGroupsII/UnequalAdjGroupsII.cs) |
+| 2928 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DistributeCandyI/DistributeCandyI.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindBuilding/FindBuilding.cs) |
 | 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubWithMax/CountSubWithMax.cs) |
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HasTrailingZeros/HasTrailingZeros.cs) |
