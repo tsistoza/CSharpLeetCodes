@@ -39,6 +39,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DisjointIntervals/DisjointIntervals.cs) |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSubset/DivisibleSubset.cs) | Brute Force |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSubsetDP/DivisibleSubsetDP.cs) | Dynamic Programming |
+| 386 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LexographicNums/LexographicNums.cs) |
 | 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PartitionSubsets/PartitionSubsets.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
@@ -148,6 +149,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/minSubarray/minSubarray.cs) |
 | 3160 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumDistinctColors/NumDistinctColors.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/StringCompIII/StringCompIII.cs) |
+| 3170 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LexicographicMinString/LexicographicMinString.cs) |
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BinaryArrayOpsI/BinaryArrayOpsI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
