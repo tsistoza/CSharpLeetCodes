@@ -67,6 +67,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1399 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountLargestGroup/CountLargestGroup.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructKPalin/ConstructKPalin.cs) |
 | 1415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KthHappyString/KthHappyString.cs) |
+| 1432 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxDiffChangeInt/MaxDiffChangeInt.cs) |
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KLengthApart/KLengthApart.cs) |
 | 1455 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PrefixOccurence/PrefixOccurence.cs) |
 | 1497 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ArrPairsDivK/ArrPairsDivK.cs) |
@@ -124,6 +125,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2529 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxCountPosNeg/MaxCountPosNeg.cs) |
 | 2535 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DifferenceOfSum/DifferenceOfSum.cs) |
 | 2554 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxChooseNum/MaxChooseNum.cs) |
+| 2556 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxDiffRemap/MaxDiffRemap.cs) |
 | 2563 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountFairPairs/CountFairPairs.cs) |
 | 2560 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIV/HouseRobberIV.cs) |
 | 2570 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Merge2DArrays/Merge2DArrays.cs) |
