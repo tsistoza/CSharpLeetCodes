@@ -148,6 +148,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3011 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BitArraySort/BitArraySort.cs) |
 | 3042 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PrefixSuffixPairs/PrefixSuffixPairs.cs) |
 | 3071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LetterY/LetterY.cs) |
+| 3085 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinDeleteToSpecial/MinDeleteToSpecial.cs) |
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/minSubarray/minSubarray.cs) |
 | 3160 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumDistinctColors/NumDistinctColors.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/StringCompIII/StringCompIII.cs) |
@@ -159,4 +160,5 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToLastRoomII/MinTimeToLastRoomII.cs) |
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArrayTransformation/ZeroArrayTransformation.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubarraysCondition/CountSubarraysCondition.cs) |
+| 3443 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxManhattanDistance/MaxManhattanDistance.cs) |
 | LongestSubSeq | [WIP]() |
