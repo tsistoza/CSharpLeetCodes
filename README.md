@@ -89,6 +89,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1942 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SmallestOccupiedChair/SmallestOccupiedChair.cs) |
 | 1947 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxCompatibality/MaxCompatibility.cs) |
 | 1975 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaximumMatrixSum/MaxMatrixSum.cs) |
+| 2014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestSubseqRepeat/LongestSubseqRepeat.cs) |
 | 2017 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/GridGame/GridGame.cs) |
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TwoBestEvents/TwoBestEvents.cs) |
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinimizedMaximum/MinimizedMaximum.cs) |
@@ -96,6 +97,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxNumTasks/MaxNumTasks.cs) |
 | 2094 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ThreeDigitEvenNum/ThreeDigitEvenNum.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidArrangement/ValidArrangement.cs) |
+| 2099 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindSubseqKSum/FindSubseqKSum.cs) |
 | 2115 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RecipeSupply/RecipeSupply.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
 | 2127 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxEmployees/MaxEmployees.cs) |
