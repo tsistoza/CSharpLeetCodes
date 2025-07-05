@@ -64,6 +64,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CheckNDouble/CheckNDouble.cs) |
 | 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructTargetWithSums/ConstructTargetWithSums.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FollowSigns/FollowSigns.cs) |
+| 1394 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LuckyInteger/LuckyInteger.cs) |
 | 1399 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountLargestGroup/CountLargestGroup.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructKPalin/ConstructKPalin.cs) |
 | 1415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/KthHappyString/KthHappyString.cs) |
@@ -156,6 +157,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/StringCompIII/StringCompIII.cs) |
 | 3170 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LexicographicMinString/LexicographicMinString.cs) |
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BinaryArrayOpsI/BinaryArrayOpsI.cs) |
+| 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindKthCharI/FindKthCharI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
 | 3335 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TotalCharsAfterTransformI/TotalCharsAfterTransformI.cs) |
