@@ -52,6 +52,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 790 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DominoTrominoTiling/DominoTrominoTiling.cs) |
 | 873 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestFibonacciSeq/LongestFibonacciSeq.cs) |
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CreateBT/CreateBT.cs) |
+| 904 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FruitBasketI/FruitBasketI.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/WordSubsets/WordSubsets.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SightSeeingPairs/SightSeeingPairs.cs) |
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XorPairs/PrevPermutation.cs) |
