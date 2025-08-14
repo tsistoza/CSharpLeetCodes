@@ -139,6 +139,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindThePrefix/FindThePrefix.cs) |
 | 2698 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PunishmentNumber/PunishmentNumber.cs) |
 | 2780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinValidSplit/MinValidSplit.cs) |
+| 2787 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ExpressPowers/ExpressPowers.cs) |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MakeSubseq/MakeSubseq.cs) |
 | 2843 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSymInt/CountSymInt.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxKDivisible/MaxKDivisible.cs) |
