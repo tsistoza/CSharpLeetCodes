@@ -22,6 +22,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 79 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/WordSearch/WordSearch.cs) |
 | 94 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/InorderTraversal/InorderTraversal.cs) |
 | 113 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PathSumII/PathSumII.cs) |
+| 118 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PascalsTriangle/PascalsTriangle.cs) |
 | 128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestConsecutive/LongestConsecutive.cs) |
 | 135 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Candy/Candy.cs) |
 | 145 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BSTPostOrder/BSTPostOrder.cs) |
