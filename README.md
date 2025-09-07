@@ -37,6 +37,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 213 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberII/HouseRobberII.cs) |
 | 222 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountTreeNodes/CountTreeNodes.cs) |
 | 240 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Search2DMatrixII/Search2DMatrixII.cs) |
+| 264 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/UglyNumberII/UglyNumberII.cs)
 | 307 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RangeSumQueryMutable/RangeSumQueryMutable.cs) |
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/IncreasingTriplet/IncreasingTriplet.cs) |
 | 337 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HouseRobberIII/HouseRobberIII.cs) |
