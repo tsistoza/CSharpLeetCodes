@@ -174,5 +174,6 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArrayTransformation/ZeroArrayTransformation.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubarraysCondition/CountSubarraysCondition.cs) |
 | 3443 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxManhattanDistance/MaxManhattanDistance.cs) |
+| 3484 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DesignSpreadsheet/DesignSpreadsheet.cs) |
 | 3541 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindVowelConsonant/FindVowelConsonant.cs) |
 | LongestSubSeq | [WIP]() |
