@@ -49,6 +49,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
 | 566 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReshapeMatrix/ReshapeMatrix.cs) |
+| 611 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidTriangleNum/ValidTriangleNum.cs) |
 | 617 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MergeTwoBT/MergeTwoBT.cs) |
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MyCalendarII/MyCalendarII.cs) |
