@@ -54,6 +54,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MyCalendarII/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
+| 778 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SwimRisingWater/SwimRisingWater.cs) |
 | 790 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DominoTrominoTiling/DominoTrominoTiling.cs) |
 | 873 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestFibonacciSeq/LongestFibonacciSeq.cs) |
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CreateBT/CreateBT.cs) |
