@@ -166,6 +166,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3160 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumDistinctColors/NumDistinctColors.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/StringCompIII/StringCompIII.cs) |
 | 3170 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LexicographicMinString/LexicographicMinString.cs) |
+| 3186 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SpellCasting/SpellCasting.cs) |
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BinaryArrayOpsI/BinaryArrayOpsI.cs) |
 | 3201 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxLengthSubI/MaxLengthSubI.cs) |
 | 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindKthCharI/FindKthCharI.cs) |
