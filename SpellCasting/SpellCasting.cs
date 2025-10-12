@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public static class Globals
 {
-    public static int[] power = { 1, 1, 3, 4 };
+    public static int[] power = { 7, 1, 6, 6 };
 }
 
 namespace Solution
@@ -33,9 +33,10 @@ namespace Solution
                     j++;
                 }
 
-                dp[i] = max + (1 * sorted[i] * unique[sorted[i]]);
+                dp[i] = max + (sorted[i] * unique[sorted[i]]);
             }
 
+            
             for (; j < dp.Length; j++) max = Math.Max(max, dp[j]);
             return max;
         }
