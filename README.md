@@ -176,6 +176,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
 | 3335 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TotalCharsAfterTransformI/TotalCharsAfterTransformI.cs) |
 | 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToLastRoomII/MinTimeToLastRoomII.cs) |
+| 3354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArray/ZeroArray.cs) |
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArrayTransformation/ZeroArrayTransformation.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubarraysCondition/CountSubarraysCondition.cs) |
 | 3443 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxManhattanDistance/MaxManhattanDistance.cs) |
