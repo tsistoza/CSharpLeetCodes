@@ -174,6 +174,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindKthCharI/FindKthCharI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
+| 3318 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XSumKLongSubarray/XSumKLongSubarray.cs) |
 | 3335 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TotalCharsAfterTransformI/TotalCharsAfterTransformI.cs) |
 | 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToLastRoomII/MinTimeToLastRoomII.cs) |
 | 3354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ZeroArray/ZeroArray.cs) |
