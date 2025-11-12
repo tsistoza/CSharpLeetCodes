@@ -47,6 +47,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DivisibleSubsetDP/DivisibleSubsetDP.cs) | Dynamic Programming |
 | 386 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LexographicNums/LexographicNums.cs) |
 | 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PartitionSubsets/PartitionSubsets.cs) |
+| 474 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/OnesAndZeros/OnesAndZeros.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReversePairs/ReversePairs.cs) |
 | 541 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Matrix01/Matrix01.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ClosestPalindrome/ClosestPalindrome.cs) |
