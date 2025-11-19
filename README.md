@@ -114,6 +114,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
 | 2127 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxEmployees/MaxEmployees.cs) |
 | 2140 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/BrainpowerQs/BrainpowerQs.cs) |
+| 2154 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MultiplyValByTwo/MultiplyValByTwo.cs) |
 | 2179 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountTripletsArray/CountTripletsArray.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructStr/ConstructStr.cs) |
 | 2270 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumSplitArr/NumSplitArr.cs) |
