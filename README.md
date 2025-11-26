@@ -129,6 +129,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2413 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SmallestMultiple/SmallMultiple.cs) |
 | 2415 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ReverseOddBT/ReverseOddBT.cs) |
 | 2425 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XorAllNums/XorAllNums.cs) |
+| 2435 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PathSumDivisibleByK/PathSumDivisibleByK.cs) |
 | 2444 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountSubarraysWithBounds/CountSubarraysWithBounds.cs) |
 | 2466 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountGoodStr/CountGoodStr.cs) |
 | 2491 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/DividePlayers/DividePlayers.cs) |
