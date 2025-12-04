@@ -117,6 +117,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2154 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MultiplyValByTwo/MultiplyValByTwo.cs) |
 | 2179 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountTripletsArray/CountTripletsArray.cs) |
 | 2182 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ConstructStr/ConstructStr.cs) |
+| 2211 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CountCollisions/CountCollisions.cs) |
 | 2270 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumSplitArr/NumSplitArr.cs) |
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/LargestComb/LargestComb.cs) |
 | 2290 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinimumObstacle/MinimumObstacle.cs) |
