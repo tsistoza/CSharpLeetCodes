@@ -1,19 +1,18 @@
 ﻿// Entry Point
 using System;
-using _899;
+using _1652;
 
 public class EntryPoint
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
         Program obj = new Program();
-        BinaryTree binaryTree = new BinaryTree();
-        binaryTree.root = obj.ConstructFromPrePost(Globals.preorder, Globals.postorder);
-        binaryTree.LevelTraversal();
-
-        binaryTree = new BinaryTree();
-        binaryTree.root = obj.ConstructFromPrePost(Globals.preorder1, Globals.postorder1);
-        binaryTree.LevelTraversal();
+        foreach (int i in obj.Decrypt(Globals.code, Globals.k)) Console.Write($"{i} ");
+        Console.WriteLine();
+        foreach (int i in obj.Decrypt(Globals.code1, Globals.k1)) Console.Write($"{i} ");
+        Console.WriteLine();
+        foreach (int i in obj.Decrypt(Globals.code2, Globals.k2)) Console.Write($"{i} ");
+        Console.WriteLine();
         return;
     }
 }
