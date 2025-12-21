@@ -2,13 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2140
 {
-    public static int[,] questions = { { 1, 1 }, { 2, 2 }, { 3, 3 }, { 4, 4 }, { 5, 5 } };
-}
+    public static class Globals
+    {
+        public static int[,] questions = { { 1, 1 }, { 2, 2 }, { 3, 3 }, { 4, 4 }, { 5, 5 } };
+    }
 
-namespace Solution
-{
     public class Program
     {
         public long MostPoints(int[,] questions)
@@ -30,11 +30,6 @@ namespace Solution
 
             return max;
         }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MostPoints(Globals.questions));
-            return;
-        }
+
     }
 }

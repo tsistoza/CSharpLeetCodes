@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _135
 {
-    public static int[] ratings = { 60, 80, 100, 100, 100, 100, 100 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] ratings = { 60, 80, 100, 100, 100, 100, 100 };
+    }
     public class Program
     {
         public int Candy(int[] ratings)
@@ -33,12 +32,6 @@ namespace Solution
                     sum += lastCandy-- - 1;
             }
             return sum;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.Candy(Globals.ratings));
-            return;
         }
     }
 }

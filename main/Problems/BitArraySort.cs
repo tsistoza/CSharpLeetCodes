@@ -2,15 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3011
 {
-    public static List<int> nums = new List<int>() { 8, 4, 2, 30, 15 };
-    public static List<int> nums2 = new List<int>() { 1, 2, 3, 4, 5 };
-    public static List<int> nums3 = new List<int>() { 3, 16, 8, 4, 2 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static List<int> nums = new List<int>() { 8, 4, 2, 30, 15 };
+    }
     public class BitComparer : IComparer<int>
     {
         public int Compare(int x, int y)
@@ -50,15 +47,6 @@ namespace Solution
                 if (nums[i - 1] > nums[i]) return false;
             }
             return true;
-        }
-
-        public static void Main(string[] args)
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.CanSortArray(Globals.nums));
-            Console.WriteLine(obj.CanSortArray(Globals.nums2));
-            Console.WriteLine(obj.CanSortArray(Globals.nums3));
-            return;
         }
     }
 }

@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-
-
 /* Leet Code 1305
  * Given two binary search trees root1 and root2, return a list containing all the integers from both trees sorted in ascending order.
  */
 
-namespace Solution
+namespace _1305
 {
     public class TreeNode
     {
@@ -63,19 +61,6 @@ namespace Solution
         {
             this.left = new TreeNode(0);
             this.right = new TreeNode(3);
-        }
-    }
-
-    public class Program
-    {
-        public static void Main()
-        {
-            TreeNode root1 = new TreeNode(2);
-            TreeNode root2 = new TreeNode(1);
-            root1.createTreeNode1();
-            root2.createTreeNode2();
-            root2.GetAllElements(root1, root2);
-            return;
         }
     }
 }

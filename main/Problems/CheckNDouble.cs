@@ -8,7 +8,6 @@ namespace _1346
     public static class Globals
     {
         public static int[] arr = new int[4] { 10, 2, 5, 3 };
-        public static int[] arr1 = new int[4] { 3, 1, 7, 11 };
     }
 
     public class Program

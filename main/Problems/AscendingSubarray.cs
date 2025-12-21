@@ -2,15 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1800
 {
-    public static int[] nums = { 10, 20, 30, 5, 10, 50 };
-    public static int[] nums1 = { 10, 20, 30, 40, 50 };
-    public static int[] nums2 = { 12, 17, 15, 13, 10, 11, 12 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 10, 20, 30, 5, 10, 50 };
+    }
     public class Program
     {
         public int MaxAscendingSum(int[] nums)
@@ -30,14 +27,6 @@ namespace Solution
                 sum = (currSum < sum) ? sum : currSum;
             }
             return sum;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MaxAscendingSum(Globals.nums));
-            Console.WriteLine(obj.MaxAscendingSum(Globals.nums1));
-            Console.WriteLine(obj.MaxAscendingSum(Globals.nums2));
-            return;
         }
     }
 }

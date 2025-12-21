@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _955;
+using _1346;
 
 public class EntryPoint
 {
     public static void Main()
     {
-        Program program = new Program();
-        Console.WriteLine(program.MinDeletionSize(Globals.strs));
+        Program obj = new Program();
+        Console.WriteLine(obj.CheckIfExist(Globals.arr));
         return;
     }
 }

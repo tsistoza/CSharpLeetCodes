@@ -2,7 +2,7 @@
 using System;
 using System.Collections;
 
-namespace Solution
+namespace _145
 {
     public class TreeNode
     {
@@ -79,27 +79,6 @@ namespace Solution
         public BST()
         {
             this.root = null;
-        }
-    }
-
-    public class Program
-    {
-        public static void Main()
-        {
-            // Test Case 1
-            BST bst1 = new BST();
-            bst1.createTestCase();
-            foreach (int i in bst1.postOrderTraversal(bst1.root!))
-                Console.Write($"{i} ");
-            Console.WriteLine();
-
-            // Test Case 2
-            BST bst2 = new BST();
-            bst2.createTestCase2();
-            foreach (int i in bst1.postOrderTraversal(bst2.root!))
-                Console.Write($"{i} ");
-            Console.WriteLine();
-            return;
         }
     }
 }

@@ -2,17 +2,14 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1497
 {
-    public static int[] arr = { 1, 2, 3, 4, 5, 10, 6, 7, 8, 9 };
-    public static int k = 5;
-    public static int[] arr1 = { 1, 2, 3, 4, 5, 6 };
-    public static int k1 = 7;
-    public static int k2 = 10;
-}
+    public static class Globals
+    {
+        public static int[] arr = { 1, 2, 3, 4, 5, 10, 6, 7, 8, 9 };
+        public static int k = 5;
+    }
 
-namespace Solution
-{
     public class Program
     {
         public bool CanArrange(int[] arr, int k)
@@ -34,14 +31,6 @@ namespace Solution
             }
 
             return true;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.CanArrange(Globals.arr, Globals.k));
-            Console.WriteLine(obj.CanArrange(Globals.arr1, Globals.k1));
-            Console.WriteLine(obj.CanArrange(Globals.arr1, Globals.k2));
-            return;
         }
     }
 }

@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3191
 {
-    public static int[] nums = { 0, 1, 1, 1 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 0, 1, 1, 1 };
+    }
     public class Program
     {
         public int MinOperations(int[] nums)
@@ -27,14 +26,7 @@ namespace Solution
                     nums[flip] ^= 1;
                 operations++;
             }
-
             return operations;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MinOperations(Globals.nums));
-            return;
         }
     }
 }

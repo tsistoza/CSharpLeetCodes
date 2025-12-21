@@ -2,16 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2
 {
-    public static int[] l1 = { 0 };
-    public static int[] l2 = { 0 };
-    public static LinkedList<int> listNode1 = new LinkedList<int>(l1);
-    public static LinkedList<int> listNode2 = new LinkedList<int>(l2);
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] l1 = { 0 };
+        public static int[] l2 = { 0 };
+        public static LinkedList<int> listNode1 = new LinkedList<int>(l1);
+        public static LinkedList<int> listNode2 = new LinkedList<int>(l2);
+    }
     public class Program
     {
         private void prettyPrint(LinkedList<int> ans)
@@ -60,12 +59,6 @@ namespace Solution
             if (carry) ans.AddLast(1);
             prettyPrint(ans);
             return ans;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.AddTwoNumbers(Globals.listNode1, Globals.listNode2));
-            return;
         }
     }
 }
