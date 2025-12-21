@@ -63,6 +63,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CreateBT/CreateBT.cs) |
 | 904 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FruitBasketI/FruitBasketI.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/WordSubsets/WordSubsets.cs) |
+| 955 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/main/Problems/DeleteColumnsII.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SightSeeingPairs/SightSeeingPairs.cs) |
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XorPairs/PrevPermutation.cs) |
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FlipColumns/FlipColumns.cs) |
