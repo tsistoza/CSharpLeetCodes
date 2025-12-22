@@ -15,7 +15,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | :---       |                               ---:| :---     |
 | 2 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/AddTwoNum.cs) | Using LL class from .NET |
 | 38 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountAndSay.cs) |
-| 41 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FirstMissingPositive/FirstMissingPositive.cs) |
+| 41 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FirstMissingPositive.cs) |
 | 42 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TrapWater/TrapWater.cs) |
 | 49 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/GroupAnagrams/GroupAnagrams.cs) |
 | 75 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SortColors/SortColors.cs) |
@@ -61,14 +61,14 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 790 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DominoTrominoTiling.cs) |
 | 873 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongestFibonacciSeq/LongestFibonacciSeq.cs) |
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CreateBT.cs) |
-| 904 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FruitBasketI/FruitBasketI.cs) |
+| 904 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FruitBasketI.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/WordSubsets/WordSubsets.cs) |
 | 955 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/main/Problems/DeleteColumnsII.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SightSeeingPairs/SightSeeingPairs.cs) |
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XorPairs/PrevPermutation.cs) |
-| 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FlipColumns/FlipColumns.cs) |
+| 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FlipColumns.cs) |
 | 1079 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TilePossibilities/TilePossibilities.cs) |
-| 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FlightBooking/FlightBooking.cs) |
+| 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FlightBooking.cs) |
 | 1128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/NumEquivalentDomino/NumEquivalentDomino.cs) |
 | 1123 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LowestCommonAncestor/LowestCommonAncestor.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountServers.cs) |
@@ -76,7 +76,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BST.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CheckNDouble.cs) |
 | 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConstructTargetWithSums.cs) |
-| 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FollowSigns/FollowSigns.cs) |
+| 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FollowSigns.cs) |
 | 1394 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LuckyInteger/LuckyInteger.cs) |
 | 1399 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountLargestGroup.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConstructKPalin.cs) |
@@ -86,6 +86,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1455 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PrefixOccurence/PrefixOccurence.cs) |
 | 1497 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ArrPairsDivK.cs) |
 | 1534 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountGoodTriplets.cs) |
+| 1545 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthBit.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DefuseTheBomb.cs) |
 | 1752 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SortedAndRotated/SortedAndRotated.cs) |
 | 1769 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MoveBallsToBox/MoveBallsToBox.cs) |
@@ -111,7 +112,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxNumTasks/MaxNumTasks.cs) |
 | 2094 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ThreeDigitEvenNum/ThreeDigitEvenNum.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidArrangement/ValidArrangement.cs) |
-| 2099 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindSubseqKSum/FindSubseqKSum.cs) |
+| 2099 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindSubseqKSum.cs) |
 | 2115 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/RecipeSupply/RecipeSupply.cs) |
 | 2116 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ParenValid/ParenValid.cs) |
 | 2127 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxEmployees/MaxEmployees.cs) |
@@ -150,7 +151,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2570 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Merge2DArrays/Merge2DArrays.cs) |
 | 2577 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinTimeToCell/MinTimeToCell.cs) |
 | 2579 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountColoredCells.cs) |
-| 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindThePrefix/FindThePrefix.cs) |
+| 2657 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindThePrefix.cs) |
 | 2698 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/PunishmentNumber/PunishmentNumber.cs) |
 | 2780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinValidSplit/MinValidSplit.cs) |
 | 2787 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ExpressPowers.cs) |
@@ -160,7 +161,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSums.cs) |
 | 2901 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/UnequalAdjGroupsII/UnequalAdjGroupsII.cs) |
 | 2928 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DistributeCandyI.cs) |
-| 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindBuilding/FindBuilding.cs) |
+| 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindBuilding.cs) |
 | 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSubWithMax.cs) |
 | 2980 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/HasTrailingZeros/HasTrailingZeros.cs) |
 | 2981 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/LongSubstringThrice/LongSubstringThrice.cs) |
@@ -177,7 +178,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3186 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SpellCasting/SpellCasting.cs) |
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BinaryArrayOpsI.cs) |
 | 3201 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxLengthSubI/MaxLengthSubI.cs) |
-| 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindKthCharI/FindKthCharI.cs) |
+| 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthCharI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/SubstrWithEveryVowel/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MinBitwiseArray/MinBitwiseArray.cs) |
 | 3318 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XSumKLongSubarray/XSumKLongSubarray.cs) |
@@ -189,5 +190,5 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3443 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/MaxManhattanDistance/MaxManhattanDistance.cs) |
 | 3484 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DesignSpreadsheet.cs) |
 | 3531 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CoveredBuildings.cs) |
-| 3541 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/FindVowelConsonant/FindVowelConsonant.cs) |
+| 3541 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindVowelConsonant.cs) |
 | LongestSubSeq | [WIP]() |
