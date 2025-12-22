@@ -2,17 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2535
 {
-    public static int[] nums = { 1, 15, 6, 3 };
-    public static int[] nums1 = { 1, 2, 3, 4 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 1, 15, 6, 3 };
+    }
     public class Program
     {
-        public static int DifferenceOfSum(int[] nums)
+        public int DifferenceOfSum(int[] nums)
         {
             int elementSum = 0;
             int digitSum = 0;
@@ -26,12 +24,6 @@ namespace Solution
                 }
             }
             return (int)Math.Abs(digitSum - elementSum);
-        }
-        public static void Main()
-        {
-            Console.WriteLine(DifferenceOfSum(Globals.nums));
-            Console.WriteLine(DifferenceOfSum(Globals.nums1));
-            return;
         }
     }
 }

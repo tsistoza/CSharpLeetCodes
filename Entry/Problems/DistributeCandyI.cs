@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2928
 {
-    public static int n = 3;
-    public static int limit = 3;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int n = 3;
+        public static int limit = 3;
+    }
     public class Program
     {
         public int DistributeCandies(int n, int limit)
@@ -26,12 +25,6 @@ namespace Solution
             }
 
             return numWays;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.DistributeCandies(Globals.n, Globals.limit));
-            return;
         }
     }
 }

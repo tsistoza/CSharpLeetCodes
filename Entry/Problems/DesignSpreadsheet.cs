@@ -2,13 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3484
 {
-    public static int rows = 3;
-}
+    public static class Globals
+    {
+        public static int rows = 3;
+    }
 
-namespace Solution
-{
     public class Spreadsheet
     {
         List<int[]> document;
@@ -68,22 +68,6 @@ namespace Solution
                 num2 = document[row][col];
             }
                 return num1 + num2;
-        }
-    }
-
-    public class Program
-    {
-        public static void Main()
-        {
-            Spreadsheet obj = new Spreadsheet(Globals.rows);
-            Console.WriteLine(obj.GetValue("=5+7"));
-            obj.SetCell("A1", 10);
-            Console.WriteLine(obj.GetValue("=A1+6"));
-            obj.SetCell("B2", 15);
-            Console.WriteLine(obj.GetValue("=A1+B2"));
-            obj.ResetCell("A1");
-            Console.WriteLine(obj.GetValue("=A1+B2"));
-            return;
         }
     }
 }

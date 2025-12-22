@@ -2,16 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _368
 {
-    public static int[] nums = { 1, 2, 4, 8 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 1, 2, 4, 8 };
+    }
     public class Program
     {
-        private static void prettyPrint(List<int> subset)
+        public static void prettyPrint(List<int> subset)
         {
             Console.Write("{ ");
             for (int i=0; i<subset.Count; i++)
@@ -52,12 +51,6 @@ namespace Solution
             List<int> largestSubset = new List<int>();
             findSubset(nums.ToList(), ref largestSubset, nums);
             return largestSubset;
-        }
-        public static int Main()
-        {
-            Program obj = new Program();
-            Program.prettyPrint(obj.LargestDivisibleSubset(Globals.nums));
-            return 0;
         }
     }
 }

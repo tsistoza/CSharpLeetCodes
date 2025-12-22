@@ -2,14 +2,14 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2894
 {
-    public static int n = 5;
-    public static int m = 1;
-}
+    public static class Globals
+    {
+        public static int n = 5;
+        public static int m = 1;
+    }
 
-namespace Solution
-{
     public class Program
     {
         public int DifferenceOfSums(int n, int m)
@@ -23,12 +23,6 @@ namespace Solution
             }
 
             return num1 - num2;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.DifferenceOfSums(Globals.n, Globals.m));
-            return;
         }
     }
 }

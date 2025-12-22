@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2787
 {
-    public static int n = 10;
-    public static int x = 2;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int n = 10;
+        public static int x = 2;
+    }
     public class Program
     {
         public int NumberOfWays(int n, int x)
@@ -28,12 +27,6 @@ namespace Solution
                 }
             }
             return (int) dp[n, n];
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.NumberOfWays(Globals.n, Globals.x));
-            return;
         }
     }
 }

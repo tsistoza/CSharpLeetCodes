@@ -3,18 +3,18 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1652
 {
-    public static readonly List<int> code = new List<int>() { 5, 7, 1, 4 };
-    public static readonly int k = 3;
-    public static readonly List<int> code1 = new List<int>() { 1, 2, 3, 4 };
-    public static readonly int k1 = 0;
-    public static readonly List<int> code2 = new List<int>() { 2, 4, 9, 3 };
-    public static readonly int k2 = -2;
-}
+    public static class Globals
+    {
+        public static readonly List<int> code = new List<int>() { 5, 7, 1, 4 };
+        public static readonly int k = 3;
+        public static readonly List<int> code1 = new List<int>() { 1, 2, 3, 4 };
+        public static readonly int k1 = 0;
+        public static readonly List<int> code2 = new List<int>() { 2, 4, 9, 3 };
+        public static readonly int k2 = -2;
+    }
 
-namespace Solution
-{
     public class Node
     {
         public Node? prev;
@@ -105,17 +105,6 @@ namespace Solution
             List<int> decryptedCode = new List<int>();
             foreach (int i in code) decryptedCode.Add(list.Decrypt(k, i));
             return decryptedCode;
-        }
-        public static void Main(string[] args)
-        {
-            Program obj = new Program();
-            foreach (int i in obj.Decrypt(Globals.code, Globals.k)) Console.Write($"{i} ");
-            Console.WriteLine();
-            foreach (int i in obj.Decrypt(Globals.code1, Globals.k1)) Console.Write($"{i} ");
-            Console.WriteLine();
-            foreach (int i in obj.Decrypt(Globals.code2, Globals.k2)) Console.Write($"{i} ");
-            Console.WriteLine();
-            return;
         }
     }
 }

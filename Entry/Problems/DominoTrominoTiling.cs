@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _790
 {
-    public static int n = 3;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int n = 3;
+    }
     public class Program
     {
         public int NumTilings(int n)
@@ -25,12 +24,6 @@ namespace Solution
             }
 
             return dp[dp.Length-1];
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.NumTilings(Globals.n));
-            return;
         }
     }
 }

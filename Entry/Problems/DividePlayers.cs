@@ -2,15 +2,14 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
-{
-    public static int[] skill = new int[6] { 3, 2, 5, 1, 3, 4 };
-    public static int[] skill1 = new int[2] { 3, 4 };
-    public static int[] skill2 = new int[4] { 1, 1, 2, 3 };
-}
 
-namespace Solution
+
+namespace _2491
 {
+    public static class Globals
+    {
+        public static int[] skill = new int[6] { 3, 2, 5, 1, 3, 4 };
+    }
     public class Program
     {
         private List<List<int>> GenerateTeam(int[] skill)
@@ -51,14 +50,6 @@ namespace Solution
             for (int i = 0; i < teams.Count; i++)
                 chemistry += (teams[i][0] * teams[i][1]);
             return chemistry;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.DividePlayers(Globals.skill));
-            Console.WriteLine(obj.DividePlayers(Globals.skill1));
-            Console.WriteLine(obj.DividePlayers(Globals.skill2));
-            return;
         }
     }
 }

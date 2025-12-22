@@ -1,43 +1,41 @@
 ﻿// LeetCode 2493
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
-public static class Globals
+namespace _2493
 {
-    public static int n = 6;
-    public static int[][] edges = new int[6][]
+    public static class Globals
     {
-        new int[2] { 1, 2 },
-        new int[2] { 1, 4 },
-        new int[2] { 1, 5 },
-        new int[2] { 2, 6 },
-        new int[2] { 2, 3 },
-        new int[2] { 4, 6 }
-    };
+        public static int n = 6;
+        public static int[][] edges = new int[6][]
+        {
+            new int[2] { 1, 2 },
+            new int[2] { 1, 4 },
+            new int[2] { 1, 5 },
+            new int[2] { 2, 6 },
+            new int[2] { 2, 3 },
+            new int[2] { 4, 6 }
+        };
 
-    public static int n1 = 3;
-    public static int[][] edges1 = new int[3][]
-    {
-        new int[2] { 1, 2 },
-        new int[2] { 2, 3 },
-        new int[2] { 3, 1 }
-    };
-}
-
-public class Pair<T1, T2>
-{
-    public T1 First { get; set; }
-    public T2 Second { get; set; }
-
-    public Pair(T1 _first, T2 _second)
-    {
-        First = _first; Second = _second;
+        public static int n1 = 3;
+        public static int[][] edges1 = new int[3][]
+        {
+            new int[2] { 1, 2 },
+            new int[2] { 2, 3 },
+            new int[2] { 3, 1 }
+        };
     }
-}
 
-namespace Solution
-{
+    public class Pair<T1, T2>
+    {
+        public T1 First { get; set; }
+        public T2 Second { get; set; }
+
+        public Pair(T1 _first, T2 _second)
+        {
+            First = _first; Second = _second;
+        }
+    }
     public class Program
     {
         public int bfs(int start, Dictionary<int,List<int>> adjList)
@@ -90,13 +88,6 @@ namespace Solution
             foreach (int i in adjList.Keys)
                 if (adjList[i].Count == 1) return bfs(i, adjList);
             return -1;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MagnificentSets(Globals.n, Globals.edges));
-            Console.WriteLine(obj.MagnificentSets(Globals.n1, Globals.edges1));
-            return;
         }
     }
 }

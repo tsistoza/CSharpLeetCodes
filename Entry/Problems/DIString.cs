@@ -1,15 +1,13 @@
 ﻿// LeetCode 2375
 using System;
-using System.Linq;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2375
 {
-    public static string pattern = "DDD";
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string pattern = "DDD";
+    }
     public class Program
     {
         private void Backtrack(List<string> strings, List<int> bucket, string soln, string pattern, int size)
@@ -45,12 +43,6 @@ namespace Solution
             Backtrack(strings, Enumerable.Range(1, pattern.Length+1).ToList(), "", pattern, pattern.Length+1);
             strings.Sort();
             return strings.First();
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.SmallestNumber(Globals.pattern));
-            return;
         }
     }
 }
