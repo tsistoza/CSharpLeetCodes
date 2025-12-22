@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _41
 {
-    public static int[] nums = { 7, 8, 9, 11, 12 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 7, 8, 9, 11, 12 };
+    }
     public class Program
     {
         public int firstMissingPositive(int[] nums)
@@ -25,12 +24,6 @@ namespace Solution
             for (int i = 0; i < bools.Length; i++)
                 if (bools[i] == false) return i + 1;
             return nums.Length + 1;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.firstMissingPositive(Globals.nums));
-            return;
         }
     }
 }

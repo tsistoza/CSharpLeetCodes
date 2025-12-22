@@ -2,31 +2,18 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1072
 {
-    public static List<List<int>> matrix = new List<List<int>>()
+    public static class Globals
     {
-        new List<int>() { 0, 1 },
-        new List<int>() { 1, 1 }
-    };
-    public static List<List<int>> matrix1 = new List<List<int>>()
-    {
-        new List<int> { 0, 0, 0 },
-        new List<int> { 0, 0, 1 },
-        new List<int> { 1, 1, 0 }
-    };
-    public static List<List<int>> matrix2 = new List<List<int>>()
-    {
-        new List<int>() { 0, 1 },
-        new List<int>() { 1, 1 }
-    };
-}
-
-namespace Solution
-{
+        public static List<List<int>> matrix = new List<List<int>>()
+        {
+            new List<int>() { 0, 1 },
+            new List<int>() { 1, 1 }
+        };
+    }
     public class Program
     {
-
         public int MaxEqualRowsAfterFlips(List<List<int>> matrix)
         {
             // Map will be used to find patterns
@@ -54,14 +41,6 @@ namespace Solution
             List<int> val = new List<int>(map.Values);
             val.Sort();
             return val[val.Count-1]; // return the pattern that occurs the most
-        }
-        public static int Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MaxEqualRowsAfterFlips(Globals.matrix));
-            Console.WriteLine(obj.MaxEqualRowsAfterFlips(Globals.matrix1));
-            Console.WriteLine(obj.MaxEqualRowsAfterFlips(Globals.matrix2));
-            return 0;
         }
     }
 }

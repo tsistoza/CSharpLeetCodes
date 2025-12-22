@@ -1,18 +1,15 @@
 ﻿// LeetCode 3541
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3541
 {
-    public static string s = "aeiaeia";
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string s = "aeiaeia";
+    }
     public class Program
     {
-
         public int MaxFreqSum(string s)
         {
             Dictionary<char, int> vowels = new Dictionary<char, int>()
@@ -36,12 +33,6 @@ namespace Solution
             int vFreq = Enumerable.Max(vowels.Values);
             int cFreq = Enumerable.Max(consonants.Values);
             return vFreq + cFreq;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MaxFreqSum(Globals.s));
-            return;
         }
     }
 }

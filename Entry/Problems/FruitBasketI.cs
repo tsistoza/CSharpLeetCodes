@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _904
 {
-    public static int[] fruits = { 1, 2, 3, 2, 2 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] fruits = { 1, 2, 3, 2, 2 };
+    }
     public class Program
     {
         public int TotalFruit(int[] fruits)
@@ -48,12 +47,6 @@ namespace Solution
                 }
             }
             return numFruits;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.TotalFruit(Globals.fruits));
-            return;
         }
     }
 }

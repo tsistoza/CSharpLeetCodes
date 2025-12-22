@@ -1,18 +1,16 @@
 ﻿// LeetCode 2657
 using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 
-public static class Globals
+namespace _2657
 {
-    public static int[] A = { 1, 3, 2, 4 };
-    public static int[] B = { 3, 1, 2, 4 };
-    public static int[] A1 = { 2, 3, 1 };
-    public static int[] B1 = { 3, 1, 2 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] A = { 1, 3, 2, 4 };
+        public static int[] B = { 3, 1, 2, 4 };
+        public static int[] A1 = { 2, 3, 1 };
+        public static int[] B1 = { 3, 1, 2 };
+    }
     public class Program
     {
         public int[] FindThePrefixCommonArray(int[] A, int[] B)
@@ -41,18 +39,6 @@ namespace Solution
                 C[i] += C[i - 1];
             }
             return C;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            foreach (int i in obj.FindThePrefixCommonArray(Globals.A, Globals.B))
-                Console.Write($"{i} ");
-            Console.WriteLine();
-
-            foreach (int i in obj.FindThePrefixCommonArray(Globals.A1, Globals.B1))
-                Console.Write($"{i} ");
-            Console.WriteLine();
-            return;
         }
     }
 }

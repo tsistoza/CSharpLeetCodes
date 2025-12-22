@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2099
 {
-    public static int[] nums = { 3, 4, 3, 3 };
-    public static int k = 2;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 3, 4, 3, 3 };
+        public static int k = 2;
+    }
     public class Program
     {
 
@@ -48,12 +47,6 @@ namespace Solution
 
             return result;
             
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Program.prettyPrint(obj.MaxSubsequence(Globals.nums, Globals.k));
-            return;
         }
     }
 }

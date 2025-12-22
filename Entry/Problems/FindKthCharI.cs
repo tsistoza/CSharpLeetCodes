@@ -2,13 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3304
 {
-    public static int k = 10;
-}
+    public static class Globals
+    {
+        public static int k = 10;
+    }
 
-namespace Solution
-{
     public class Program
     {
         public char KthCharacter(int k)
@@ -22,13 +22,6 @@ namespace Solution
             }
             Console.WriteLine(word);
             return word[k];
-        }
-
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.KthCharacter(Globals.k));
-            return;
         }
     }
 }

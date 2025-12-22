@@ -3,36 +3,28 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-public static class Globals
+namespace _1368
 {
-    public static int[,] grid = new int[4, 4]
+    public static class Globals
     {
-        { 1, 1, 1, 1 },
-        { 2, 2, 2, 2 },
-        { 1, 1, 1, 1 },
-        { 2, 2, 2, 2 }
-    };
-    public static int[,] grid1 = new int[3, 3]
-    {
-        { 1, 1, 3 },
-        { 3, 2, 2 },
-        { 1, 1, 4 }
-    };
-}
-
-public class Pair<T1, T2>
-{
-    public T1 x { get; set; }
-    public T2 y { get; set; }
-
-    public Pair(T1 _x, T2 _y)
-    {
-        this.x = _x; this.y = _y;
+        public static int[,] grid = new int[4, 4]
+        {
+            { 1, 1, 1, 1 },
+            { 2, 2, 2, 2 },
+            { 1, 1, 1, 1 },
+            { 2, 2, 2, 2 }
+        };
     }
-}
+    public class Pair<T1, T2>
+    {
+        public T1 x { get; set; }
+        public T2 y { get; set; }
 
-namespace Solution
-{
+        public Pair(T1 _x, T2 _y)
+        {
+            this.x = _x; this.y = _y;
+        }
+    }
     public class Program
     {
         private List<int> getPossiblePaths(Tuple<int, int> index, List<Tuple<int, int>> visited, int[,] grid)
@@ -103,13 +95,6 @@ namespace Solution
             int cost = int.MaxValue;
             dfs(new Tuple<int,int>(0, 0), new List<Tuple<int,int>>(), grid, 0, ref cost);
             return cost;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MinCost(Globals.grid));
-            Console.WriteLine(obj.MinCost(Globals.grid1));
-            return;
         }
     }
 }

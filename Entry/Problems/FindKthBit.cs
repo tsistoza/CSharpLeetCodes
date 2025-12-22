@@ -19,14 +19,13 @@ For example, the first four strings in the above sequence are:
 Return the kth bit in Sn. It is guaranteed that k is valid for the given n.
  */
 
-public static class Globals
+namespace _1545
 {
-    public static readonly int n = 3;
-    public static readonly int k = 1;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static readonly int n = 3;
+        public static readonly int k = 1;
+    }
     public class Program
     {
         public string binaryString = "";
@@ -61,12 +60,6 @@ namespace Solution
         {
             createBinaryString(n);
             return this.binaryString[k-1];
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.FindKthBit(Globals.n, Globals.k));
-            return;
         }
     }
 }
