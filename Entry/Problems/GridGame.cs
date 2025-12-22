@@ -2,14 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2017
 {
-    public static int[,] grid = { { 2, 5, 4 }, { 1, 5, 1 } };
-    public static int[,] grid1 = { { 3, 3, 1 }, { 8, 5, 2 } };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[,] grid = { { 2, 5, 4 }, { 1, 5, 1 } };
+    }
     public class Program
     {
         public long GridGame(int[,] grid)
@@ -33,14 +31,6 @@ namespace Solution
             }
 
             return minimumSumRobot2;
-
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.GridGame(Globals.grid));
-            Console.WriteLine(obj.GridGame(Globals.grid1));
-            return;
         }
     }
 }

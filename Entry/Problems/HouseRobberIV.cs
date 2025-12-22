@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2560
 {
-    public static int[] nums = { 2, 7, 9, 3, 1 };
-    public static int k = 2;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] nums = { 2, 7, 9, 3, 1 };
+        public static int k = 2;
+    }
     public class Program
     {
         
@@ -40,12 +39,6 @@ namespace Solution
                 else high = mid;
             }
             return low;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MinCapabiliity(Globals.nums, Globals.k));
-            return;
         }
     }
 }

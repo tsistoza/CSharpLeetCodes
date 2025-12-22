@@ -2,32 +2,29 @@
 using System;
 using System.Collections.Generic;
 
-
-public static class Globals
+namespace _94
 {
-    public static int[] root = { 1 }; // -101 represent null
-}
-
-
-public class TreeNode
-{
-    public int val;
-    public TreeNode? left;
-    public TreeNode? right;
-    public TreeNode(int _val = 0, TreeNode? _left = null, TreeNode? _right = null)
+    public static class Globals
     {
-        this.val = _val;
-        this.left = _left;
-        this.right = _right;
+        public static int[] root = { 1 }; // -101 represent null
     }
-}
 
 
-namespace Solution
-{
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode? left;
+        public TreeNode? right;
+        public TreeNode(int _val = 0, TreeNode? _left = null, TreeNode? _right = null)
+        {
+            this.val = _val;
+            this.left = _left;
+            this.right = _right;
+        }
+    }
     public class Program
     {
-        private static void PrettyPrint(IList<int> list)
+        public static void PrettyPrint(IList<int> list)
         {
             Console.Write("{ ");
             foreach (int i in list)
@@ -35,7 +32,7 @@ namespace Solution
             Console.WriteLine("}");
             return;
         }
-        private static TreeNode? BuildTree(int[] root, int index)
+        public static TreeNode? BuildTree(int[] root, int index)
         {
             if (index >= root.Length) return null;
             TreeNode? node = (root[index] == -101) ? null : new TreeNode(root[index]);
@@ -68,14 +65,6 @@ namespace Solution
 
             Inorder(root, ref inorderList);
             return inorderList;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            TreeNode? root = BuildTree(Globals.root, 0);
-
-            Program.PrettyPrint(obj.InorderTraversal(root));
-            return;
         }
     }
 }

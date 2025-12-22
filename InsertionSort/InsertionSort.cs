@@ -1,17 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-
-
-public static class Globals
-{
-    public static readonly List<int> nums = new List<int>() { 4, 2, 1, 3 };
-    public static readonly List<int> nums2 = new List<int>() { -1, 5, 3, 4, 0 };
-}
-
 
 namespace Solution
 {
+    public static class Globals
+    {
+        public static readonly List<int> nums = new List<int>() { 4, 2, 1, 3 };
+    }
+
     public class Program
     {
         public LinkedList<int> list = new LinkedList<int>();

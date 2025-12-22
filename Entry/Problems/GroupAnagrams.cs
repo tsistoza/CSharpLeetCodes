@@ -2,16 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _49
 {
-    public static List<string> strs = new List<string>() { "a" };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static List<string> strs = new List<string>() { "a" };
+    }
     public class Program
     {
-        private static void prettyPrint(List<List<string>> list)
+        public static void prettyPrint(List<List<string>> list)
         {
             Console.Write("{");
             for (int i=0; i<list.Count; i++)
@@ -63,12 +62,6 @@ namespace Solution
                 results.Add(result);
             }
             return results;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Program.prettyPrint(obj.groupAnagrams(Globals.strs));
-            return;
         }
     }
 }

@@ -2,15 +2,14 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2980
 {
-    public static List<int> nums = new List<int>() { 1, 2, 3, 4, 5 };
-    public static List<int> nums1 = new List<int>() { 2, 4, 8, 16 };
-    public static List<int> nums2 = new List<int>() { 1, 3, 5, 7, 9 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static List<int> nums = new List<int>() { 1, 2, 3, 4, 5 };
+        public static List<int> nums1 = new List<int>() { 2, 4, 8, 16 };
+        public static List<int> nums2 = new List<int>() { 1, 3, 5, 7, 9 };
+    }
     public class Program
     {
         public bool HasTrailingZeros(List<int> nums)
@@ -39,15 +38,6 @@ namespace Solution
                 GetAllSubArrays(nums, subArrays, subarray, i + 1);
                 subarray.RemoveAt(subarray.Count - 1);
             }
-            return;
-        }
-
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.HasTrailingZeros(Globals.nums));
-            Console.WriteLine(obj.HasTrailingZeros(Globals.nums1));
-            Console.WriteLine(obj.HasTrailingZeros(Globals.nums2));
             return;
         }
     }

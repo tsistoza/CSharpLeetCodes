@@ -1,17 +1,14 @@
 ﻿// LeetCode 213
 // House Robber I is in CPPLeetCode
 using System;
-using System.Linq;
 using System.Collections.Generic;
-using System.Numerics;
 
-public static class Globals
+namespace _213
 {
-    public static List<int> nums = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static List<int> nums = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+    }
     public class Program
     {
         public int rob(List<int> nums)
@@ -57,12 +54,6 @@ namespace Solution
             }
             int max = Math.Max(Math.Max(dp[nums.Count-2], dp[nums.Count-3]), Math.Max(dp2[nums.Count-2], dp[nums.Count-3]));
             return max;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.rob(Globals.nums));
-            return;
         }
     }
 }

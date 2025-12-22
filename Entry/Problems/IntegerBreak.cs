@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
-{
-    public static int n = 5;
-}
 
-namespace Solution
+namespace _343
 {
+    public static class Globals
+    {
+        public static int n = 5;
+    }
+
     public class Program
     {
         public int IntegerBreak(int n)
@@ -34,12 +35,6 @@ namespace Solution
                 Console.WriteLine($"dp[{i}] = {dp[i]}");
             }
             return dp[n];
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.IntegerBreak(Globals.n));
-            return;
         }
     }
 }
