@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2014
 {
-    public static string s = "ab";
-    public static int k = 2;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string s = "ab";
+        public static int k = 2;
+    }
     public class Program
     {
         private bool LexographicallyLarger(string newStr, string oldStr)
@@ -67,12 +66,6 @@ namespace Solution
             BackTrack(s, new String(s[0], 1), 0, 0, k, ref result, dict);
 
             return result;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.LongestSubsequenceRepeated(Globals.s, Globals.k));
-            return;
         }
     }
 }

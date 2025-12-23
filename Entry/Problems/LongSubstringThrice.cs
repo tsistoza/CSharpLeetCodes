@@ -2,15 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2981
 {
-    public static string s = "aaaa";
-    public static string s1 = "abcdef";
-    public static string s2 = "abcaba";
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string s = "aaaa";
+    }
     public class Program
     {
 
@@ -36,14 +33,6 @@ namespace Solution
             }
             if (maxLength == int.MinValue) return -1;
             return maxLength;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MaximumLength(Globals.s));
-            Console.WriteLine(obj.MaximumLength(Globals.s1));
-            Console.WriteLine(obj.MaximumLength(Globals.s2));
-            return;
         }
     }
 }

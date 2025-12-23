@@ -2,16 +2,15 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _336
 {
-    public static int n = 50;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int n = 50;
+    }
     public class Program
     {
-        private static void PrettyPrint(IList<int> ans)
+        public static void PrettyPrint(IList<int> ans)
         {
             Console.Write("{ ");
             foreach (int i in ans) Console.Write($"{i}, ");
@@ -46,12 +45,6 @@ namespace Solution
                 GetOrder(i, n, ref ans);
             }
             return ans;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Program.PrettyPrint(obj.LexicalOrder(Globals.n));
-            return;
         }
     }
 }

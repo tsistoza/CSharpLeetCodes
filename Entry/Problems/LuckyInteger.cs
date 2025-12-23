@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1394
 {
-    public static int[] arr = { 2, 2, 2, 3, 3 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] arr = { 2, 2, 2, 3, 3 };
+    }
     public class Program
     {
         public int findLucky(int[] arr)
@@ -21,12 +20,6 @@ namespace Solution
                 if (freqs[key] == key) return key;
 
             return -1;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.findLucky(Globals.arr));
-            return;
         }
     }
 }

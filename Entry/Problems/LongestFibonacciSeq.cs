@@ -2,14 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _873
 {
-    public static int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8 };
-    public static int[] arr1 = { 1, 3, 7, 11, 12, 14, 18 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8 };
+    }
     public class Program
     {
         private void getFibonacciSubseq(List<int> subseq, ref int max, int[] arr, int index)
@@ -48,13 +46,6 @@ namespace Solution
             int max = 0;
             getFibonacciSubseq(new List<int>(), ref max, arr, 0);
             return max;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.LenLongestFibSubseq(Globals.arr));
-            Console.WriteLine(obj.LenLongestFibSubseq(Globals.arr1));
-            return;
         }
     }
 }

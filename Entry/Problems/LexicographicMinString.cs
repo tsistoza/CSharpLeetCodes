@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3170
 {
-    public static string s = "abc*de*fgh*";
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string s = "abc*de*fgh*";
+    }
     public class Compare : IComparer<(char, int)>
     {
         int IComparer<(char,int)>.Compare((char,int) x, (char, int) y)
@@ -50,12 +49,6 @@ namespace Solution
             }
 
             return newStr;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.ClearStars(Globals.s));
-            return;
         }
     }
 }

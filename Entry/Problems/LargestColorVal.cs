@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1857
 {
-    public static string colors = "abaca";
-    public static int[,] edges = {  };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string colors = "abaca";
+        public static int[,] edges = {  };
+    }
     public class Compare : IComparer<int>
     {
         int IComparer<int>.Compare(int x, int y)
@@ -77,12 +76,6 @@ namespace Solution
             }
             
             return count;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.LargestPathValue(Globals.colors, Globals.edges));
-            return;
         }
     }
 }

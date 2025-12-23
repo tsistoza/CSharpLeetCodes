@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _1415;
+using _2014;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        Console.WriteLine(obj.GetHappyString(Globals.n, Globals.k));
+        Console.WriteLine(obj.LongestSubsequenceRepeated(Globals.s, Globals.k));
         return;
     }
 }

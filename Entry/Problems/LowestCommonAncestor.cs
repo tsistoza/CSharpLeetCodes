@@ -2,67 +2,66 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1123
 {
-    public static int[] tree = { 1 }; // -1 denotes a null node
-}
-
-public class TreeNode
-{
-    public int val;
-    public TreeNode? left;
-    public TreeNode? right;
-
-    public TreeNode(int _val=0, TreeNode? _left=null, TreeNode? _right=null)
+    public static class Globals
     {
-        val = _val; left = _left; right = _right;
+        public static int[] tree = { 1 }; // -1 denotes a null node
     }
-}
 
-public class Tree
-{
-    public TreeNode? root;
-
-    private TreeNode? createTree(int[] tree, int index)
+    public class TreeNode
     {
-        TreeNode? node = null;
+        public int val;
+        public TreeNode? left;
+        public TreeNode? right;
 
-        if (index < tree.Length && tree[index] != -1) node = new TreeNode(tree[index]);
-
-        if (node != null)
+        public TreeNode(int _val=0, TreeNode? _left=null, TreeNode? _right=null)
         {
-            node.left = createTree(tree, 2*index + 1);
-            node.right = createTree(tree, 2*index + 2);
+            val = _val; left = _left; right = _right;
+        }
+    }
+
+    public class Tree
+    {
+        public TreeNode? root;
+
+        private TreeNode? createTree(int[] tree, int index)
+        {
+            TreeNode? node = null;
+
+            if (index < tree.Length && tree[index] != -1) node = new TreeNode(tree[index]);
+
+            if (node != null)
+            {
+                node.left = createTree(tree, 2*index + 1);
+                node.right = createTree(tree, 2*index + 2);
+            }
+
+            return node;
+        }
+        private void levelTreeTraversal(TreeNode? root)
+        {
+            if (root == null) return;
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+            while (queue.Count > 0)
+            {
+                TreeNode node = queue.Dequeue();
+                Console.Write($"{node.val} ");
+
+                if (node.left != null) queue.Enqueue(node.left);
+                if (node.right != null) queue.Enqueue(node.right);
+            }
+            Console.WriteLine();
+            return;
         }
 
-        return node;
-    }
-    private void levelTreeTraversal(TreeNode? root)
-    {
-        if (root == null) return;
-        Queue<TreeNode> queue = new Queue<TreeNode>();
-        queue.Enqueue(root);
-        while (queue.Count > 0)
+        public Tree(int[] _tree)
         {
-            TreeNode node = queue.Dequeue();
-            Console.Write($"{node.val} ");
-
-            if (node.left != null) queue.Enqueue(node.left);
-            if (node.right != null) queue.Enqueue(node.right);
+            this.root = createTree(_tree, 0);
+            this.levelTreeTraversal(this.root);
         }
-        Console.WriteLine();
-        return;
     }
-
-    public Tree(int[] _tree)
-    {
-        this.root = createTree(_tree, 0);
-        this.levelTreeTraversal(this.root);
-    }
-}
-
-namespace Solution
-{
     public class Program
     {
         public void postorder(TreeNode root, int currDepth, ref int maxDepth)
@@ -105,14 +104,6 @@ namespace Solution
 
             return findLCA(root, 0, maxDepth)!;
             
-        }
-        public static void Main()
-        {
-            Tree bt = new Tree(Globals.tree);
-            
-            Program obj = new Program();
-            Console.WriteLine(obj.LcaDeepestLeaves(bt.root!).val);
-            return;
         }
     }
 }

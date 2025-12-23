@@ -1,22 +1,16 @@
 ﻿// LeetCode 3071
 using System;
 using System.Collections.Generic;
-using System.Reflection;
 
-public static class Globals
+namespace _3071
 {
-    public static int[,] grid = new int[3, 3]
+    public static class Globals
     {
-        { 1, 2, 2 }, { 1, 1, 0 }, { 0, 1, 0 }
-    };
-    public static int[,] grid1 = new int[5, 5]
-    {
-        { 0, 1, 0, 1, 0 }, {2, 1, 0, 1, 2 }, { 2, 2, 2, 0, 1 }, { 2, 2, 2, 2, 2 }, { 2, 1, 2, 2, 2 }
-    };
-}
-
-namespace Solution
-{
+        public static int[,] grid = new int[3, 3]
+        {
+            { 1, 2, 2 }, { 1, 1, 0 }, { 0, 1, 0 }
+        };
+    }
     public class Compare : IComparer<List<int>>
     {
         int IComparer< List<int> >.Compare(List<int>? x, List<int>? y)
@@ -96,13 +90,6 @@ namespace Solution
             operations += (listY.Count - yEnumerator.Current[1]);
             operations += (grid.Length - listY.Count) - notYEnumerator.Current[1];
             return operations;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MinimumOperationToWriteY(Globals.grid));
-            Console.WriteLine(obj.MinimumOperationToWriteY(Globals.grid1));
-            return;
         }
     }
 }
