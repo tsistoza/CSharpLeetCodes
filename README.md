@@ -109,7 +109,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2054 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/TwoBestEvents/TwoBestEvents.cs) |
 | 2064 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinimizedMaximum.cs) |
 | 2070 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/MaximumBeauty/MaximumBeauty.cs) |
-| 2071 | [Link]https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxNumTasks.cs) |
+| 2071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxNumTasks.cs) |
 | 2094 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ThreeDigitEvenNum/ThreeDigitEvenNum.cs) |
 | 2097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/ValidArrangement/ValidArrangement.cs) |
 | 2099 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindSubseqKSum.cs) |
