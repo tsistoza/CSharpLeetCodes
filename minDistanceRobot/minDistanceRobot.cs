@@ -1,17 +1,15 @@
-﻿using Solution;
-using System;
+﻿using System;
 using System.Collections.Generic;
-
-public static class Globals
-{
-    public static List<int> robot = new List<int>() { 0, 4, 6 };
-    public static List<List<int>> factories = new List<List<int>>() { new List<int>() { 2, 2 },
-                                                                      new List<int>() { 6, 2 }, };
-
-}
 
 namespace Solution
 {
+    public static class Globals
+    {
+        public static List<int> robot = new List<int>() { 0, 4, 6 };
+        public static List<List<int>> factories = new List<List<int>>() { new List<int>() { 2, 2 },
+                                                                          new List<int>() { 6, 2 }, };
+
+    }
     public class Program
     {
         public long MinimumTotalDistance(List<int> robot, List<List<int>> factories)

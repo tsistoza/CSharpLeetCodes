@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public static class Globals
-{
-    public static readonly List<int> list = new List<int>() { 4, 2, 6, 1, 3 };
-}
-
-
 namespace Solution
 {
+    public static class Globals
+    {
+        public static readonly List<int> list = new List<int>() { 4, 2, 6, 1, 3 };
+    }
     public class Node
     {
         public int id;
