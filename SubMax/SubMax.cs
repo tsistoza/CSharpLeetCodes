@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public static class Globals
-{
-    public static readonly string s = "aa";
-}
-
 namespace Solution
 {
+    public static class Globals
+    {
+        public static readonly string s = "aa";
+    }
     public class Program
     {
         private List<string> substrings = new List<string>();

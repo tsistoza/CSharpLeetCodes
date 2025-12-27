@@ -1,13 +1,12 @@
 ﻿// Entry Point
 using System;
-using _474;
+using _3163;
 
 public class EntryPoint
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
-        Program obj = new Program();
-        Console.WriteLine(obj.FindMaxForm(Globals.strs, Globals.m, Globals.n));
+        Console.WriteLine(CompressedString(Globals.testWord));
         return;
     }
 }
