@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace _3402
+namespace _3042
 {
     public static class Globals
     {
