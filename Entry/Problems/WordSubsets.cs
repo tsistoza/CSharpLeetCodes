@@ -2,16 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _916
 {
-    public static string[] words1 = { "amazon", "apple", "facebook", "google", "leetcode" };
-    public static string[] words2 = { "e", "o" };
-    public static string[] words1a = { "amazon", "apple", "facebook", "google", "leetcode" };
-    public static string[] words2a = { "l", "e" };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string[] words1 = { "amazon", "apple", "facebook", "google", "leetcode" };
+        public static string[] words2 = { "e", "o" };
+    }
     public class Program
     {
         private bool isSubset(string a, string b)
@@ -51,18 +48,6 @@ namespace Solution
             }
                 
             return result;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            foreach (string s in obj.WordSubsets(Globals.words1, Globals.words2))
-                Console.Write($"{s} ");
-            Console.WriteLine();
-
-            foreach (string s in obj.WordSubsets(Globals.words1a, Globals.words2a))
-                Console.Write($"{s} ");
-            Console.WriteLine();
-            return;
         }
     }
 }

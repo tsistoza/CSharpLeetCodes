@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _96
 {
-    public static int n = 5;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int n = 5;
+    }
     public class Program
     {
         public int NumTrees(int n)
@@ -31,12 +30,6 @@ namespace Solution
             }
 
             return dp[n];
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.NumTrees(Globals.n));
-            return;
         }
     }
 }

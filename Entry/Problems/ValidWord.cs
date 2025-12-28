@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _3136
 {
-    public static string word = "a3$e";
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string word = "a3$e";
+    }
     public class Program
     {
         public bool IsValid(string word)
@@ -35,8 +34,6 @@ namespace Solution
 
             return (vowel > 0 && consonant > 0) ? true : false;
         }
-
-        
         private ( bool, int ) isAllowed(ref int[,] allowed, char c)
         {
             for (int i=0; i<allowed.GetLength(0); i++)
@@ -45,12 +42,6 @@ namespace Solution
                 return ( true, i );
             }
             return (false, -1);
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.IsValid(Globals.word));
-            return;
         }
     }
 }

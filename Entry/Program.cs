@@ -1,12 +1,13 @@
 ﻿// Entry Point
 using System;
-using _3163;
+using _3355;
 
 public class EntryPoint
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
-        Console.WriteLine(CompressedString(Globals.testWord));
+        Program obj = new Program();
+        Console.WriteLine(obj.isZeroArray(Globals.nums, Globals.queries));
         return;
     }
 }

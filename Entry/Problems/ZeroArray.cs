@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Solution
+namespace _3354
 {
     public static class Globals
     {
@@ -30,12 +30,6 @@ namespace Solution
                     selections++;
             }
             return selections;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.CountValidSelections(Globals.nums));
-            return;
         }
     }
 }

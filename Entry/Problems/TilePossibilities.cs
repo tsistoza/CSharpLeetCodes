@@ -2,15 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _1079
 {
-    public static string tiles = "AAB";
-    public static string tiles1 = "AAABBC";
-    public static string tiles2 = "V";
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string tiles = "AAB";
+    }
     public class Program
     {
         // Generate The PowerSet. Make sure the powerset has no duplicates. Then find every permutation for each powerSet.
@@ -65,15 +62,6 @@ namespace Solution
                 generatePermutations(tile, dict, 0);
             }
             return dict.Count();
-        }
-        
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.numTilePossiblities(Globals.tiles));
-            Console.WriteLine(obj.numTilePossiblities(Globals.tiles1));
-            Console.WriteLine(obj.numTilePossiblities(Globals.tiles2));
-            return;
         }
     }
 }

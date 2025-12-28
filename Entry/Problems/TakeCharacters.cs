@@ -4,18 +4,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2516
 {
-    public static string s = "aabaaaacaabc";
-    public static int k = 2;
-    public static string s1 = "abcabcabc";
-    public static int k1 = 2;
-    public static string s2 = "a";
-    public static int k2 = 1;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string s = "aabaaaacaabc";
+        public static int k = 2;
+    }
     public class Program
     {
         public int TakeCharacters(string s, int k)
@@ -60,14 +55,6 @@ namespace Solution
                 if (numA < k || numB < k || numC < k) return true;
             }
             return false;
-        }
-        public static void Main(string[] args)
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.TakeCharacters(Globals.s, Globals.k));
-            Console.WriteLine(obj.TakeCharacters(Globals.s1, Globals.k1));
-            Console.WriteLine(obj.TakeCharacters(Globals.s2, Globals.k2));
-            return;
         }
     }
 }

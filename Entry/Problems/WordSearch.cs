@@ -2,19 +2,18 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _79
 {
-    public static char[][] board =
+    public static class Globals
     {
-        new char[4] { 'A', 'B', 'C', 'E' },
-        new char[4] { 'S', 'F', 'C', 'S' },
-        new char[4] { 'A', 'D', 'E', 'E' }
-    };
-    public static string word = "ABCCED";
-}
-
-namespace Solution
-{
+        public static char[][] board =
+        {
+            new char[4] { 'A', 'B', 'C', 'E' },
+            new char[4] { 'S', 'F', 'C', 'S' },
+            new char[4] { 'A', 'D', 'E', 'E' }
+        };
+        public static string word = "ABCCED";
+    }
     public class Program
     {
         private void dfs(int i, int j, int index, ref int maxIndex, ref HashSet<(int,int)> vis, char[][] board, string word)
@@ -60,12 +59,6 @@ namespace Solution
                 if (maxIndex == word.Length) break;
             }
             return (maxIndex == word.Length);
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.Exist(Globals.board, Globals.word));
-            return;
         }
     }
 }

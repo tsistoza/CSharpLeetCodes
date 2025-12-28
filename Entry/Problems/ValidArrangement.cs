@@ -1,16 +1,14 @@
 ﻿// LeetCode 2097
 using System;
-using System.Collections;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2097
 {
-    public static int[,] pairs = new int[4, 2] { { 5, 1 }, { 4, 5 }, { 11, 9 }, { 9, 4 } };
-    public static int[,] pairs1 = new int[3, 2] { { 1, 3 }, { 3, 2 }, { 2, 1 } };
-};
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[,] pairs = new int[4, 2] { { 5, 1 }, { 4, 5 }, { 11, 9 }, { 9, 4 } };
+        public static int[,] pairs1 = new int[3, 2] { { 1, 3 }, { 3, 2 }, { 2, 1 } };
+    }
     public class Program
     {
         public IEnumerable<Tuple<int,int>> ValidArrangement(int[,] pairs)
@@ -38,18 +36,6 @@ namespace Solution
                 result.Clear();
             }
             return result;
-        }
-
-        public static void Main()
-        {
-            Program obj = new Program();
-            foreach (Tuple<int,int> pair in obj.ValidArrangement(Globals.pairs))
-                Console.Write($"({pair.Item1}, {pair.Item2}) ");
-            Console.WriteLine();
-            foreach (Tuple<int, int> pair in obj.ValidArrangement(Globals.pairs1))
-                Console.Write($"({pair.Item1}, {pair.Item2}) ");
-            Console.WriteLine();
-            return;
         }
     }
 }

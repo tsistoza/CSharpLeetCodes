@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _264
 {
-    public static int n = 10;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int n = 10;
+    }
     public class Program
     {
         private List<int> makeList(ref List<int> dp, int idx)
@@ -63,12 +62,6 @@ namespace Solution
             }
 
             return dp[n-1];
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.NthUglyNumber(Globals.n));
-            return;
         }
     }
 }

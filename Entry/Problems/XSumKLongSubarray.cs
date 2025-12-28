@@ -1,9 +1,8 @@
 ﻿// LeetCode 3318
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
-namespace Solution
+namespace _3318
 {
     public static class Globals
     {
@@ -11,7 +10,6 @@ namespace Solution
         public static int k = 2;
         public static int x = 2;
     }
-
     public class Cmp : IComparer<(int freq, int key)>
     {
         public int Compare((int freq, int key) x, (int freq, int key) y)
@@ -23,7 +21,6 @@ namespace Solution
             return 0;
         }
     }
-
     public class Program
     {
         public int[] FindXSum(int[] nums, int k, int x)
@@ -61,7 +58,7 @@ namespace Solution
             result[index] = sum;
             return;
         }
-        private static void PrettyPrint(int[] result)
+        public static void PrettyPrint(int[] result)
         {
             Console.Write("{ ");
             for (int i=0; i<result.Length; i++)
@@ -70,12 +67,6 @@ namespace Solution
                 else Console.Write($"{result[i]}, ");
             }
             Console.WriteLine("}");
-            return;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Program.PrettyPrint(obj.FindXSum(Globals.nums, Globals.k, Globals.x));
             return;
         }
     }

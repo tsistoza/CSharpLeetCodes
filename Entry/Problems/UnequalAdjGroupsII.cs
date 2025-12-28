@@ -2,14 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2901
 {
-    public static string[] words = { "bab", "dab", "cab" };
-    public static int[] groups = { 1, 2, 2 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string[] words = { "bab", "dab", "cab" };
+        public static int[] groups = { 1, 2, 2 };
+    }
     public class Program
     {
         public static void prettyPrint(IList<string> list)
@@ -69,12 +68,6 @@ namespace Solution
                 }
             }
             return result;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Program.prettyPrint(obj.GetWordsInLongestSubsequence(Globals.words, Globals.groups));
-            return;
         }
     }
 }

@@ -2,13 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2094
 {
-    public static int[] digits = { 3, 7, 5 };
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[] digits = { 3, 7, 5 };
+    }
     public class Program
     {
         private IEnumerable<int> findDigits(int x)
@@ -63,13 +62,6 @@ namespace Solution
                 }
             }
             return result;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            foreach (int i in obj.FindEvenNumbers(Globals.digits))
-                Console.WriteLine(i);
-            return;
         }
     }
 }

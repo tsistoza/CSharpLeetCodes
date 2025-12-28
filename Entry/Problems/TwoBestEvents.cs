@@ -2,15 +2,12 @@
 using System;
 using System.Collections.Generic;
 
-public static class Globals
+namespace _2054
 {
-    public static int[,] events = { { 1, 3, 2 }, { 4, 5, 2 }, { 2, 4, 3 } };
-    public static int[,] events1 = { { 1, 3, 2 }, { 4, 5, 2 }, { 1, 5, 5 } };
-    public static int[,] events2 = { { 1, 5, 3 }, { 1, 5, 1 }, { 6, 6, 5 } };
-};
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static int[,] events = { { 1, 3, 2 }, { 4, 5, 2 }, { 2, 4, 3 } };
+    };
     public class Program
     {
         
@@ -35,14 +32,6 @@ namespace Solution
             }
 
             return maxVal;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.MaxTwoEvents(Globals.events));
-            Console.WriteLine(obj.MaxTwoEvents(Globals.events1));
-            Console.WriteLine(obj.MaxTwoEvents(Globals.events2));
-            return;
         }
     }
 }

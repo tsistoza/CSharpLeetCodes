@@ -1,16 +1,14 @@
 ﻿// LeetCode 3335
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
-public static class Globals
+namespace _3335
 {
-    public static string s = "abcyy";
-    public static int t = 2;
-}
-
-namespace Solution
-{
+    public static class Globals
+    {
+        public static string s = "abcyy";
+        public static int t = 2;
+    }
     public class Program
     {
         public int LengthAfterTransformation(string s, int t)
@@ -31,12 +29,6 @@ namespace Solution
             }
 
             return Enumerable.Sum(map) % mod;
-        }
-        public static void Main()
-        {
-            Program obj = new Program();
-            Console.WriteLine(obj.LengthAfterTransformation(Globals.s, Globals.t));
-            return;
         }
     }
 }
