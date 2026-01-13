@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _3355;
+using _1266;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        Console.WriteLine(obj.isZeroArray(Globals.nums, Globals.queries));
+        Console.WriteLine(obj.MinTimeToVisitAllPoints(Globals.points));
         return;
     }
 }

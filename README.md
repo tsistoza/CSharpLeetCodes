@@ -72,6 +72,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FlightBooking.cs) |
 | 1128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/NumEquivalentDomino.cs) |
 | 1123 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LowestCommonAncestor.cs) |
+| 1266 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/VisitAllPoints.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountServers.cs) |
 | 1295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountNumEvenDigits.cs) |
 | 1305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BST.cs) |
