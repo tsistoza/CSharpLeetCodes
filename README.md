@@ -183,6 +183,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthCharI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinBitwiseArray.cs) |
+| 3315 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinBitwiseArrayII.cs) |
 | 3318 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/XSumKLongSubarray.cs) |
 | 3335 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/TotalCharsAfterTransformI.cs) |
 | 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinTimeToLastRoomII.cs) |
