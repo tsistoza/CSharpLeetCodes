@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _3315;
+using _3650;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        Program.PrettyPrint(obj.MinBitwiseArray(Globals.nums));
+        Console.WriteLine(obj.MinCost(Globals.n, Globals.edges));
         return;
     }
 }
