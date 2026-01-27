@@ -194,4 +194,5 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3484 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DesignSpreadsheet.cs) |
 | 3531 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CoveredBuildings.cs) |
 | 3541 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindVowelConsonant.cs) |
+| 3650 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/EdgeReversals.cs) |
 | LongestSubSeq | [WIP]() |
