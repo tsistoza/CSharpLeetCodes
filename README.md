@@ -189,7 +189,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3342 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinTimeToLastRoomII.cs) |
 | 3354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ZeroArray.cs) |
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ZeroArrayTransformation.cs) |
-| 3379 | [Link]() |
+| 3379 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/TransformedArray.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSubarraysCondition.cs) |
 | 3443 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxManhattanDistance.cs) |
 | 3484 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DesignSpreadsheet.cs) |
