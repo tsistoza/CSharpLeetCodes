@@ -46,6 +46,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSubset.cs) | Brute Force |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSubsetDP.cs) | Dynamic Programming |
 | 386 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LexographicNums.cs) |
+| 401 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BinaryWatch.cs) |
 | 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PartitionSubsets.cs) |
 | 474 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/OnesAndZeros.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ReversePairs.cs) |
@@ -78,6 +79,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BST.cs) |
 | 1346 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CheckNDouble.cs) |
 | 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConstructTargetWithSums.cs) |
+| 1356 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SortByBitOne.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FollowSigns.cs) |
 | 1394 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LuckyInteger.cs) |
 | 1399 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountLargestGroup.cs) |
