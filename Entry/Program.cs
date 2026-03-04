@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _3719;
+using _1582;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        Console.WriteLine(obj.LongestBalanced(Globals.nums));
+        Console.WriteLine(obj.NumSpecial(Globals.mat));
         return;
     }
 }
