@@ -91,6 +91,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1497 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ArrPairsDivK.cs) |
 | 1534 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountGoodTriplets.cs) |
 | 1545 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthBit.cs) |
+| 1582 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SpecialBinaryMatrix.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DefuseTheBomb.cs) |
 | 1752 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SortedAndRotated.cs) |
 | 1769 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MoveBallsToBox.cs) |
