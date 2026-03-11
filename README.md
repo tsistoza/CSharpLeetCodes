@@ -50,6 +50,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PartitionSubsets.cs) |
 | 474 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/OnesAndZeros.cs) |
 | 493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ReversePairs.cs) |
+| 514 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FreedomTrail.cs) |
 | 542 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/Matrix01.cs) |
 | 564 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ClosestPalindrome.cs) |
 | 566 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ReshapeMatrix.cs) |
