@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _1582;
+using _514;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        Console.WriteLine(obj.NumSpecial(Globals.mat));
+        Console.WriteLine(obj.FindRotateSteps(Globals.ring, Globals.key));
         return;
     }
 }
