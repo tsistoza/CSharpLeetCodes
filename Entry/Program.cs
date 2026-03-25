@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _1170;
+using _3546;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        obj.NumSmallerByFrequency(Globals.queries, Globals.words);
+        Console.WriteLine(obj.CanPartitionGrid(Globals.grid));
         return;
     }
 }
