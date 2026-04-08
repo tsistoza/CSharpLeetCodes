@@ -72,8 +72,9 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FlipColumns.cs) |
 | 1079 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/TilePossibilities.cs) |
 | 1109 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FlightBooking.cs) |
-| 1128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/NumEquivalentDomino.cs) |
 | 1123 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LowestCommonAncestor.cs) |
+| 1128 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/NumEquivalentDomino.cs) |
+| 1137 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/TribonacciNumber.cs) |
 | 1170 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FrequencySmallChar.cs) |
 | 1266 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/VisitAllPoints.cs) |
 | 1267 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountServers.cs) |
