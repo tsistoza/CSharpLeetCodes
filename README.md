@@ -164,6 +164,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinValidSplit.cs) |
 | 2787 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ExpressPowers.cs) |
 | 2825 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MakeSubseq.cs) |
+| 2833 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FurthestPointFromOrigin.cs) |
 | 2843 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSymInt.cs) |
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxKDivisible.cs) |
 | 2894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSums.cs) |
