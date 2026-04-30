@@ -68,6 +68,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 955 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/main/Problems/DeleteColumnsII.cs) |
 | 961 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/NRepeatedElem.cs) |
 | 1014 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SightSeeingPairs.cs) |
+| 1049 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LastStoneWeightII.cs) |
 | 1053 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/XorPairs/PrevPermutation.cs) |
 | 1072 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FlipColumns.cs) |
 | 1079 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/TilePossibilities.cs) |
