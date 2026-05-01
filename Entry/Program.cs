@@ -1,13 +1,13 @@
 ﻿// Entry Point
 using System;
-using _3546;
+using KnapSackProblem;
 
 public class EntryPoint
 {
     public static void Main()
     {
         Program obj = new Program();
-        Console.WriteLine(obj.CanPartitionGrid(Globals.grid));
+        Console.WriteLine(obj.MaxValue(Globals.val, Globals.wt, Globals.capacity));
         return;
     }
 }
