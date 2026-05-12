@@ -29,7 +29,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 135 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/Candy.cs) |
 | 145 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BSTPostOrder.cs) |
 | 146 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LRUCache.cs) |
-| 162 | [Link]https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PeakElement.cs) |
+| 162 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PeakElement.cs) |
 | 169 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MajorityElement.cs) |
 | 187 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/RepeatedDNA.cs) |
 | 190 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ReverseBits.cs) |
@@ -98,6 +98,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1545 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthBit.cs) |
 | 1582 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SpecialBinaryMatrix.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DefuseTheBomb.cs) |
+| 1665 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinimumEffort.cs) |
 | 1752 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SortedAndRotated.cs) |
 | 1769 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MoveBallsToBox.cs) |
 | 1780 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PowerOfThree.cs) |
