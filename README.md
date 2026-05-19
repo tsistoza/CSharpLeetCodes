@@ -42,6 +42,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 334 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/IncreasingTriplet.cs) |
 | 337 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/HouseRobberIII.cs) |
 | 343 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/IntegerBreak.cs) |
+| 349 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/IntersectionOfTwoArrays.cs) |
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DisjointIntervals.cs) |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSubset.cs) | Brute Force |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSubsetDP.cs) | Dynamic Programming |
