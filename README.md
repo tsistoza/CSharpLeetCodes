@@ -184,6 +184,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3071 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LetterY.cs) |
 | 3085 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinDeleteToSpecial.cs) |
 | 3097 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/minSubarray.cs) |
+| 3121 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSpecialCharII.cs) |
 | 3136 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ValidWord.cs) |
 | 3160 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/NumDistinctColors.cs) |
 | 3163 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/StringCompIII.cs) |
