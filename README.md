@@ -64,6 +64,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 778 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SwimRisingWater.cs) |
 | 790 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DominoTrominoTiling.cs) |
 | 873 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LongestFibonacciSeq.cs) |
+| 875 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/EatingBananas.cs) |
 | 889 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CreateBT.cs) |
 | 904 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FruitBasketI.cs) |
 | 916 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/WordSubsets.cs) |
