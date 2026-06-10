@@ -46,6 +46,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 352 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DisjointIntervals.cs) |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSubset.cs) | Brute Force |
 | 368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSubsetDP.cs) | Dynamic Programming |
+| 373 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/KPairSums.cs) |
 | 386 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LexographicNums.cs) |
 | 401 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BinaryWatch.cs) |
 | 416 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PartitionSubsets.cs) |
