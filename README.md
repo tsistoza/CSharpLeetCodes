@@ -212,6 +212,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3531 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CoveredBuildings.cs) |
 | 3541 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindVowelConsonant.cs) |
 | 3546 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/GridPartitionI.cs) |
+| 3614 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/StringSpecialOpsII.cs) |
 | 3650 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/EdgeReversals.cs) |
 | 3719 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LongestBalancedSubarrayI.cs) |
 | LongestSubSeq | [WIP]() |
