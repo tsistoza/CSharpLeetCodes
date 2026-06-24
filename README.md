@@ -60,6 +60,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 611 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ValidTriangleNum.cs) |
 | 617 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MergeTwoBT.cs) |
 | 673 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/numLongSubseq/numLongSubseq.cs) |
+| 719 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthSmallestPair.cs) |
 | 731 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MyCalendarII.cs) |
 | 740 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/DeleteEarn/DeleteEarn.cs) |
 | 778 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SwimRisingWater.cs) |
