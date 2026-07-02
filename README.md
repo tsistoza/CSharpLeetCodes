@@ -195,6 +195,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3186 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SpellCasting.cs) |
 | 3191 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BinaryArrayOpsI.cs) |
 | 3201 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxLengthSubI.cs) |
+| 3286 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindSafeWalk.cs) |
 | 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthCharI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SubstrWithEveryVowel.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinBitwiseArray.cs) |
