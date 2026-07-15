@@ -216,6 +216,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3546 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/GridPartitionI.cs) |
 | 3614 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/StringSpecialOpsII.cs) |
 | 3650 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/EdgeReversals.cs) |
+| 3658 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/GCDOddEven.cs) |
 | 3719 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LongestBalancedSubarrayI.cs) |
 | 3756 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConcatenateNonZeroDigitsII.cs) |
 | LongestSubSeq | [WIP]() |
