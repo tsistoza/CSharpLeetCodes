@@ -140,6 +140,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2275 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/CSharpDynProg/LargestComb/LargestComb.cs) |
 | 2290 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinimumObstacle.cs) |
 | 2295 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ArrayChange.cs) |
+| 2300 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PairsOfSpellsAndPotions.cs) |
 | 2375 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DIString.cs) |
 | 2376 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSpecialInt.cs) |
 | 2379 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinRecolorBlocks.cs) |
