@@ -199,6 +199,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3286 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindSafeWalk.cs) |
 | 3304 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthCharI.cs) |
 | 3305 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SubstrWithEveryVowel.cs) |
+| 3310 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/RemoveMethodsFromProject.cs) |
 | 3314 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinBitwiseArray.cs) |
 | 3315 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinBitwiseArrayII.cs) |
 | 3318 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/XSumKLongSubarray.cs) |
