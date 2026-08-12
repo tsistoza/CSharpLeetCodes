@@ -101,6 +101,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1534 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountGoodTriplets.cs) |
 | 1545 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthBit.cs) |
 | 1582 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SpecialBinaryMatrix.cs) |
+| 1626 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BestTeamWithNoConflicts.cs) |
 | 1652 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DefuseTheBomb.cs) |
 | 1665 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MinimumEffort.cs) |
 | 1752 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SortedAndRotated.cs) |
