@@ -90,6 +90,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1354 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConstructTargetWithSums.cs) |
 | 1356 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SortByBitOne.cs) |
 | 1368 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FollowSigns.cs) |
+| 1386 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CinemaSeatAllocation.cs) |
 | 1394 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LuckyInteger.cs) |
 | 1399 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountLargestGroup.cs) |
 | 1400 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConstructKPalin.cs) |
