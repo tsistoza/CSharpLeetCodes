@@ -179,6 +179,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2872 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxKDivisible.cs) |
 | 2894 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivisibleSums.cs) |
 | 2901 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/UnequalAdjGroupsII.cs) |
+| 2904 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/BeautifulString.cs) |
 | 2928 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DistributeCandyI.cs) |
 | 2940 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindBuilding.cs) |
 | 2962 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSubWithMax.cs) |
