@@ -225,4 +225,5 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3658 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/GCDOddEven.cs) |
 | 3719 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LongestBalancedSubarrayI.cs) |
 | 3756 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ConcatenateNonZeroDigitsII.cs) |
+| 3875 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/UniformParityArrayI.cs) |
 | LongestSubSeq | [WIP]() |
