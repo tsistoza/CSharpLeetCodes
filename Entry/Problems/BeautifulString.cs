@@ -6,8 +6,8 @@ namespace _2904
 {
     public static class Globals
     {
-        public static string s = "000";
-        public static int k = 1;
+        public static string s = "0101111000101011001";
+        public static int k = 9;
     }
     public class Program
     {
@@ -27,6 +27,12 @@ namespace _2904
 
             return s1;
         }
+        private string CreateMaxString(int length)
+        {
+            string maxString = "";
+            for (int i = 0; i < length; i++) maxString += '1';
+            return maxString;
+        }
         public string ShortestBeautifulSubstring(string s, int k)
         {
             if (k == 1)
@@ -36,9 +42,16 @@ namespace _2904
                 return "";
             }
 
+            if (k == s.Length)
+            {
+                int numOnes = 0;
+                foreach (char c in s) if (c == '1') numOnes++;
+                return (numOnes == k) ? CreateMaxString(k) : "";
+            }
+
             LinkedList<int> indexes = new LinkedList<int>();
-            string minBeautifulString = "";
-            for (int i = 0; i < s.Length; i++) minBeautifulString += '1';
+            string minBeautifulString = CreateMaxString(s.Length);
+            string cmp = minBeautifulString;
 
             // Sliding Window, Whenever we find a beautiful string, we want to remove the first 1, and slide and minimize the window, to where we have k-1 1's
             // and increase p2 till we find k 1's again, this guarantees that with this substring, its always minimized
@@ -47,6 +60,7 @@ namespace _2904
             {
                 if (s[p2] == '1')
                 {
+                    p1 = (s[p1] == '0') ? p2 : p1;
                     indexes.AddLast(p2);
                     num1++;
                 }
@@ -65,7 +79,7 @@ namespace _2904
                 p2++;
             }
 
-            return minBeautifulString;
+            return (minBeautifulString == cmp) ? "" : minBeautifulString;
 
         }
     }
