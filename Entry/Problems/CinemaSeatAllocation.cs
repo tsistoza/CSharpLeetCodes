@@ -16,43 +16,32 @@ namespace _1386
     {
         public int MaxNumberOfFamilies(int n, int[,] reservedSeats)
         {
-            HashSet<(int, int)> reserved = new HashSet<(int, int)>();
             HashSet<int> four1 = new HashSet<int>() { 2, 3, 4, 5 };
             HashSet<int> four2 = new HashSet<int>() { 4, 5, 6, 7 };
             HashSet<int> four3 = new HashSet<int>() { 6, 7, 8, 9 };
+            Dictionary<int, int> allocatedSeats = new Dictionary<int, int>();
+            int total = n * 2;
 
+            int blocks = 0b111;
             for (int i=0; i<reservedSeats.GetLength(0); i++)
-                reserved.Add((reservedSeats[i, 0], reservedSeats[i, 1]));
-
-            bool block1 = true, block2 = true, block3 = true;
-            int total = 0;
-            for (int i=1; i<=n; i++)
             {
-                for (int j=2; j<=9; )
-                {
-                    if (!reserved.Contains((i, j)))
-                    {
-                        j++;
-                        continue;
-                    }
+                int row = reservedSeats[i, 0], col = reservedSeats[i, 1];
+                if (!allocatedSeats.ContainsKey(row))
+                    allocatedSeats.Add(row, blocks);
 
-                    if (four1.Contains(j)) block1 = false;
-                    if (four2.Contains(j)) block2 = false;
-                    if (four3.Contains(j)) block3 = false;
+                if (col < 2 || col > 9) continue;
+                
+                if (four1.Contains(col)) blocks &= 0b011;
+                if (four2.Contains(col)) blocks &= 0b101;
+                if (four3.Contains(col)) blocks &= 0b110;
 
-                    if (j == 2 || j == 3) j = 4;
-                    else if (j == 4 || j == 5) j = 6;
-                    else break;
-                }
-
-                if (block1 && block2 && block3) total += 2;
-                else if (block1 || block2 || block3) total++;
-
-                block1 = true;
-                block2 = true;
-                block3 = true;
+                int currSeating = allocatedSeats[row];
+                allocatedSeats[row] &= blocks;
+                if (currSeating == 7 && currSeating > allocatedSeats[row]) total--;
+                if (allocatedSeats[row] == 0 && currSeating > 0) total--;
+                
+                blocks = 0b111;
             }
-
             return total;
         }
     }
