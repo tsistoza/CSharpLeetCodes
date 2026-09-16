@@ -154,6 +154,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 2435 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PathSumDivisibleByK.cs) |
 | 2444 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSubarraysWithBounds.cs) |
 | 2466 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountGoodStr.cs) |
+| 2472 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxNumberOfNonOverlappingPalindrome.cs) |
 | 2491 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DividePlayers.cs) |
 | 2493 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DivideNodes.cs) |
 | 2490 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CircularSentence.cs) |
