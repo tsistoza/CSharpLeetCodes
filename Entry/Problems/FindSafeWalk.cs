@@ -6,12 +6,12 @@ namespace _3286
 {
     public static class Globals
     {
-        public static int[,] grid = new int[3, 3] {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
-        public static int health = 5;
+        public static int[,] grid = new int[2, 2] { { 0, 0 }, { 1, 1 } };
+        public static int health = 1;
     }
     public class Deque<T>
     {
-        private readonly LinkedList<T> _list = new LinkedList<T>();
+        private LinkedList<T> _list = new LinkedList<T>();
 
         public int Count { get { return _list.Count; } }
         public bool IsEmpty { get { return _list.Count == 0; } }
@@ -65,7 +65,7 @@ namespace _3286
             FillArray<int>(dist, int.MaxValue);
             FillArray<int>(heart, health);
             dist[0, 0] = 0;
-            heart[0, 0] = 0;
+            heart[0, 0] = (grid[0, 0] == 1) ? 1 : 0;
 
             Deque<List<int>> dq = new Deque<List<int>>();
             dq.AddBack(new List<int> { 0, 0 });
@@ -85,8 +85,9 @@ namespace _3286
                     if (newX < 0 || newX >= m || newY < 0 || newY >= n) continue;
 
                     int newDist = dist[x, y] + 1;
-                    int newHealth = heart[x, y] + grid[x, y];
+                    int newHealth = heart[x, y] + grid[newX, newY];
 
+                    Console.WriteLine($"newHealth = {newHealth}");
                     if (newX == m - 1 && newY == n - 1 && newHealth < health) return true;
 
                     // Prioritize health first
@@ -114,7 +115,6 @@ namespace _3286
                     }
                 }
             }
-            
             return (heart[m-1, n-1] < health);
         }
     }
