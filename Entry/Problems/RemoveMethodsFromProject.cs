@@ -1,4 +1,5 @@
 ﻿// LeetCode 3310
+using _1652;
 using System;
 using System.Collections.Generic;
 using System.Reflection.Metadata.Ecma335;
@@ -25,77 +26,51 @@ namespace _3310
             return;
         }
 
-        private void dfs_suspicious(ref List<int>[] adjList, ref HashSet<int> suspicious, int node)
-        {
-            if (!suspicious.Contains(node)) suspicious.Add(node);
-            else return;
-
-            if (adjList[node].Count == 0) return;
-
-            foreach (int nextNode in adjList[node])
-                dfs_suspicious(ref adjList, ref suspicious, nextNode);
-            return;
-        }
-
-        // we are going to use bfs to find a node that is not in the suspicious set, if a node is found, then the set is no longer suspicious
-        private void bfs_nonsuspicious(ref List<int>[] revAdjList, ref HashSet<int> suspicious)
+        private void bfs_suspicious(ref List<int>[] adjList, ref bool[] bad, int badNode)
         {
             Queue<int> bfsQ = new Queue<int>();
-            HashSet<int> visited = new HashSet<int>(suspicious);
 
-            foreach (int suspiciousNode in suspicious)
-            {
-                if (revAdjList[suspiciousNode].Count == 0) continue;
-                foreach (int nextNode in revAdjList[suspiciousNode])
-                    bfsQ.Enqueue(nextNode);
-            }
-            
+            if (adjList[badNode].Count == 0) return;
+
+            foreach (int node in adjList[badNode]) bfsQ.Enqueue(node);
+
             while (bfsQ.Count > 0)
             {
-                int currNode = bfsQ.Dequeue();
+                int node = bfsQ.Dequeue();
+                if (!bad[node]) bad[node] = true;
+                else continue;
 
-                if (visited.Contains(currNode)) continue;
-                if (!suspicious.Contains(currNode))
-                {
-                    suspicious.Clear();
-                    bfsQ.Clear();
-                    return;
-                }
-
-
-                foreach (int nextNode in revAdjList[currNode])
-                    bfsQ.Enqueue(nextNode);
+                if (adjList[node].Count == 0) continue;
+                foreach (int nextNode in adjList[node]) bfsQ.Enqueue(nextNode);
             }
-
             return;
         }
 
         public List<int> RemainingMethods(int n, int k, int[][] invocations)
         {
             List<int>[] adjList = new List<int>[n];
-            List<int>[] revAdjList = new List<int>[n];
-            for (int i=0; i<n; i++)
-            {
-                adjList[i] = new List<int>();
-                revAdjList[i] = new List<int>();
-            }
+            for (int i=0; i<n; i++) adjList[i] = new List<int>();
 
             for (int i = 0; i < invocations.Length; i++)
             {
                 int start = invocations[i][0], end = invocations[i][1];
-
                 adjList[start].Add(end);
-                revAdjList[end].Add(start);
             }
 
-            HashSet<int> suspicious = new HashSet<int>();
-            dfs_suspicious(ref adjList, ref suspicious, k); // WE DO NOT CARE ABOUT ANY SETS OTHER THAN SUSPICIOUS SET
-            bfs_nonsuspicious(ref revAdjList, ref suspicious); // Find remaining nodes in set, if found, suspicious set is no longer suspicious
+            bool[] bad = new bool[n];
+            bad[k] = true;
+            bfs_suspicious(ref adjList, ref bad, k); // WE DO NOT CARE ABOUT ANY SETS OTHER THAN SUSPICIOUS SET
+
+            for (int i = 0; i < invocations.GetLength(0); i++) // If we find a good node that is connected to bad node, return the whole set
+            {
+                int nodeStart = invocations[i][0], nodeEnd = invocations[i][1];
+                if (!bad[nodeStart] && bad[nodeEnd]) return Enumerable.Range(0, n).ToList();
+            }
 
             List<int> result = new List<int>();
             for (int i=0; i<n; i++)
             {
-                if (suspicious.Contains(i)) continue;
+                if (bad[i]) continue;
                 result.Add(i);
             }
 
