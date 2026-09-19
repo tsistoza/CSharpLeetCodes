@@ -6,7 +6,7 @@ namespace _3286
 {
     public static class Globals
     {
-        public static int[,] grid = new int[2, 2] { { 0, 0 }, { 1, 1 } };
+        public static int[,] grid = new int[3, 5] { { 0, 1, 0, 0, 0 }, { 0, 1, 0, 1, 0 }, { 0, 0, 0, 1, 0 } };
         public static int health = 1;
     }
     public class Deque<T>
@@ -67,21 +67,20 @@ namespace _3286
             dist[0, 0] = 0;
             heart[0, 0] = (grid[0, 0] == 1) ? 1 : 0;
 
-            Deque<List<int>> dq = new Deque<List<int>>();
-            dq.AddBack(new List<int> { 0, 0 });
+            PriorityQueue<(int, int), int> dq = new PriorityQueue<(int, int), int>();
+            dq.Enqueue((0, 0), grid[0, 0]);
 
-            while (!dq.IsEmpty)
+            while (dq.Count > 0)
             {
-                List<int> front = dq.Front;
-                dq.RemoveFront();
-                int x = front[0], y = front[1];
+                (int x, int y) front = dq.Dequeue();
+                int x = front.x, y = front.y;
 
-                //Console.WriteLine($"x = {x}, y = {y}, dist={dist[x, y]}, heart={heart[x, y]}");
+                Console.WriteLine($"x = {x}, y = {y}, dist={dist[x, y]}, heart={heart[x, y]}");
 
                 for (int i=0; i<4; i++)
                 {
-                    int newX = dirX[i] + front[0];
-                    int newY = dirY[i] + front[1];
+                    int newX = dirX[i] + x;
+                    int newY = dirY[i] + y;
                     if (newX < 0 || newX >= m || newY < 0 || newY >= n) continue;
 
                     int newDist = dist[x, y] + 1;
@@ -95,10 +94,7 @@ namespace _3286
                     {
                         dist[newX, newY] = newDist;
                         heart[newX, newY] = newHealth;
-                        if (grid[x, y] == 1)
-                            dq.AddBack(new List<int> { newX, newY });
-                        else 
-                            dq.AddFront(new List<int> { newX, newY });
+                        dq.Enqueue((newX, newY), grid[x, y]);
                         continue;
                     }
 
@@ -111,7 +107,7 @@ namespace _3286
                     if (newDist < dist[newX, newY])
                     {
                         dist[newX, newY] = newDist;
-                        dq.AddBack(new List<int> { newX, newY });
+                        dq.Enqueue((newX, newY), grid[x, y]);
                     }
                 }
             }
