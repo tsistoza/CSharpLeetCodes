@@ -6,8 +6,8 @@ namespace _3286
 {
     public static class Globals
     {
-        public static int[,] grid = new int[3, 5] { { 0, 1, 0, 0, 0 }, { 0, 1, 0, 1, 0 }, { 0, 0, 0, 1, 0 } };
-        public static int health = 1;
+        public static int[,] grid = new int[3, 3] {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+        public static int health = 5;
     }
     public class Deque<T>
     {
@@ -67,15 +67,15 @@ namespace _3286
             dist[0, 0] = 0;
             heart[0, 0] = (grid[0, 0] == 1) ? 1 : 0;
 
-            PriorityQueue<(int, int), int> dq = new PriorityQueue<(int, int), int>();
-            dq.Enqueue((0, 0), grid[0, 0]);
 
-            while (dq.Count > 0)
+            Queue<(int, int, int, int)> queue = new Queue<(int, int, int, int)>();
+            queue.Enqueue((0, 0, 0, grid[0, 0]));
+
+            while (queue.Count > 0)
             {
-                (int x, int y) front = dq.Dequeue();
-                int x = front.x, y = front.y;
+                (int x, int y, int currDist, int currHealth) = queue.Dequeue();
 
-                Console.WriteLine($"x = {x}, y = {y}, dist={dist[x, y]}, heart={heart[x, y]}");
+                //Console.WriteLine($"x = {x}, y = {y}, dist={currDist}, heart={currHealth}");
 
                 for (int i=0; i<4; i++)
                 {
@@ -83,35 +83,33 @@ namespace _3286
                     int newY = dirY[i] + y;
                     if (newX < 0 || newX >= m || newY < 0 || newY >= n) continue;
 
-                    int newDist = dist[x, y] + 1;
-                    int newHealth = heart[x, y] + grid[newX, newY];
+                    int newDist = currDist + 1;
+                    int newHealth = currHealth + grid[newX, newY];
 
-                    Console.WriteLine($"newHealth = {newHealth}");
+                    //Console.WriteLine($"newHealth = {newHealth}");
                     if (newX == m - 1 && newY == n - 1 && newHealth < health) return true;
 
-                    // Prioritize health first
-                    if (newHealth < heart[newX, newY])
-                    {
-                        dist[newX, newY] = newDist;
-                        heart[newX, newY] = newHealth;
-                        dq.Enqueue((newX, newY), grid[x, y]);
-                        continue;
-                    }
+                    if (newHealth >= health) continue;
 
-                    if (newHealth > heart[newX, newY])
-                    {
-                        continue;
-                    }
-
-                    // Health is the same
+                    // Prioritize Shorter Distance
                     if (newDist < dist[newX, newY])
                     {
                         dist[newX, newY] = newDist;
-                        dq.Enqueue((newX, newY), grid[x, y]);
+                        heart[newX, newY] = (newHealth < heart[newX, newY]) ? newHealth : heart[newX, newY];
+                        queue.Enqueue((newX, newY, newDist, newHealth));
+                        continue;
+                    }
+
+                    if (newHealth < heart[newX, newY])
+                    {
+                        heart[newX, newY] = newHealth;
+                        queue.Enqueue((newX, newY, newDist, newHealth));
+                        continue;
                     }
                 }
             }
-            return (heart[m-1, n-1] < health);
+
+            return false;
         }
     }
 }
