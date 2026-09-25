@@ -20,36 +20,33 @@ namespace _3517
         }
         public string SmallestPalindrome(string s)
         {
-            if (s.Length == 1) return s;
+            int strLen = s.Length;
+            if (strLen == 1) return s;
 
             // Count chars, and check which is the odd one
-            SortedDictionary<char, int> numChars = new SortedDictionary<char, int>();
+            int[] charFreq = new int[s.Length];
             foreach (char c in s)
-            {
-                if (!numChars.ContainsKey(c)) numChars.Add(c, 1);
-                else numChars[c]++;
-            }
+                charFreq[(int)(c-'a')]++;
 
-            string result = "";
+            char[] result = new char[s.Length];
             // Construct first half of string
-            char mid = 'a';
-            foreach (char c in numChars.Keys)
+            int ptr1 = 0, ptr2 = strLen - 1;
+            for (int i=0; i<charFreq.Length; i++)
             {
-                if (numChars[c] % 2 == 1) // if we have an odd number than thats the middle char
-                    mid = c;
+                if (charFreq[i] == 0) continue;
 
-                int num = numChars[c] / 2; // Number of chars to repeat, Ex. if we have 4 A's, we repeat twice, and save 2 for other half
-                if (num == 0) continue;
+                int num = charFreq[i] / 2; // Number of chars to repeat, Ex. if we have 4 A's, we repeat twice, and save 2 for other half
 
-                string repeated = new string(c, num);
-                result += repeated;
+                while (num > 0)
+                {
+                    char append = (char)(i + 'a');
+                    result[ptr1++] = append;
+                    result[ptr2--] = append;
+                }
             }
 
-            // Construct the second half of string
-            string reversed = ReverseString(result); // Reverse the first half of the string
-            if (s.Length % 2 == 1) result += mid;
-            result += reversed;
-            return result;
+            if (strLen % 2 == 1) result[strLen / 2] = s[strLen / 2];
+            return new string(result);
         }
     }
 }
