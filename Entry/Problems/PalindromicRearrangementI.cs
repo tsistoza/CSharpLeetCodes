@@ -6,7 +6,7 @@ namespace _3517
 {
     public static class Globals
     {
-        public static string s = "babab";
+        public static string s = "vv";
     }
 
     public class Program
@@ -24,9 +24,9 @@ namespace _3517
             if (strLen == 1) return s;
 
             // Count chars, and check which is the odd one
-            int[] charFreq = new int[s.Length];
+            int[] charFreq = new int[26];
             foreach (char c in s)
-                charFreq[(int)(c-'a')]++;
+                charFreq[(int)(c - 'a')]++;
 
             char[] result = new char[s.Length];
             // Construct first half of string
@@ -37,11 +37,12 @@ namespace _3517
 
                 int num = charFreq[i] / 2; // Number of chars to repeat, Ex. if we have 4 A's, we repeat twice, and save 2 for other half
 
-                while (num > 0)
+                while (num > 0 && ptr1 <= strLen / 2 && ptr2 >= strLen / 2)
                 {
                     char append = (char)(i + 'a');
                     result[ptr1++] = append;
                     result[ptr2--] = append;
+                    num--;
                 }
             }
 
