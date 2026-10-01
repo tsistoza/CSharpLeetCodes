@@ -99,6 +99,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 1437 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/KLengthApart.cs) |
 | 1455 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/PrefixOccurence.cs) |
 | 1497 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ArrPairsDivK.cs) |
+| 1521 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindValueClosestToTarget.cs) |
 | 1534 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountGoodTriplets.cs) |
 | 1545 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/FindKthBit.cs) |
 | 1582 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/SpecialBinaryMatrix.cs) |
