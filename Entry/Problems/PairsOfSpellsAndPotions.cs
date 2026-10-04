@@ -25,18 +25,18 @@ namespace _2300
 
             for (int i=0; i<spells.Length; i++)
             {
-                int low = 0, high = potions.Length - 1;
+                int low = 0, high = potions.Length - 1, currSpell = spells[i];
 
                 while (low < high)
                 {
                     int mid = low + (high - low) / 2;
-                    if ((long)(potions[mid] * spells[i]) >= success)
+
+                    if (potions[mid] >= (success + currSpell  - 1) / currSpell)
                         high = mid - 1;
                     else
                         low = mid + 1;
                 }
-                if (potions[low] * spells[i] < success) low++;
-                
+                if (potions[low] < (success + currSpell - 1) / currSpell) low++;
                 ans[i] = potions.Length - low;
             }
 
