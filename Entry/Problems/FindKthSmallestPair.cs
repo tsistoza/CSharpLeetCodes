@@ -1,6 +1,7 @@
 ﻿// LeetCode 719
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 
 namespace _719
 {
@@ -11,37 +12,42 @@ namespace _719
     }
     public class Program
     {
-        public int CountPairWithDistanceLTMid(int[] nums, int mid)
+        private int CountPairs(int[] sortedNums, int distance)
         {
-            int left = 0, right = 0, count = 0;
-            while (right < nums.Length) 
-            {
-                while (nums[right] - nums[left] > mid) left++;
-                count += (right - left);
-                right++;
+            int n = sortedNums.Length;
+            int count = 0;
 
+            int left = 0;
+            for (int i=0; i<n; i++)
+            {
+                while (sortedNums[i] - sortedNums[left] > distance)
+                    left++;
+
+                count += i - left;
             }
+
             return count;
         }
-            
         public int SmallestDistancePair(int[] nums, int k)
         {
             Array.Sort(nums);
+
             int low = 0, high = nums[nums.Length - 1] - nums[0];
             while (low < high)
             {
                 int mid = low + (high-low) / 2;
-                int countPairsLTMid = CountPairWithDistanceLTMid(nums, mid);
-                Console.WriteLine($"low={low}, mid={mid}, high={high}, pairsLTMid={countPairsLTMid}");
+                int countOfPairs = CountPairs(nums, mid);
+                Console.WriteLine($"low={low}, mid={mid}, high={high}, countPairs={countOfPairs}");
 
-                if (countPairsLTMid < k)
+                if (countOfPairs < k)
                     low = mid + 1;
                 else
-                    high = mid;
+                    high = mid - 1;
             }
 
-            Console.WriteLine($"low={low}, high={high}");
-            return low;
+            Console.WriteLine($"low={low} high={high}");
+            int pairs = CountPairs(nums, low);
+            return (pairs < k) ? low + 1 : low;
         }
     }
 }
