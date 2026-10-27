@@ -90,41 +90,6 @@ namespace _3619
             val = ((val + dfs(vis, grid, bfsQ, x, y - 1, k)) % k);
             return val;
         }
-
-        private int bfs(bool[,] vis, int[][] grid, Deque og, int x, int y, int k, int capacity)
-        {
-            Deque bfsQ = new Deque(capacity);
-            bfsQ.AddFront((x, y));
-            int sum = 0;
-            while (!bfsQ.IsEmpty)
-            {
-                (int currX, int currY) = bfsQ.RemoveFront();
-                if (!vis[currX, currY])
-                {
-                    sum = ((sum + grid[currX][currY]) % k);
-                    vis[currX, currY] = true;
-                }
-
-                int[] dirX = { -1, 0, 1, 0 };
-                int[] dirY = { 0, -1, 0, 1 };
-
-                for (int i = 0; i < 4; i++)
-                {
-                    int newX = dirX[i] + currX;
-                    int newY = dirY[i] + currY;
-                    if (newX < 0 || newX >= grid.Length || newY < 0 || newY >= grid[0].Length) continue;
-                    if (vis[newX, newY]) continue;
-                    if (grid[newX][newY] == 0)
-                    {
-                        og.AddFront((newX, newY));
-                        continue;
-                    }
-                    bfsQ.AddFront((newX, newY));
-                }
-            }
-
-            return sum;
-        }
         public int CountIslands(int[][] grid, int k)
         {
             int m = grid.Length;
@@ -145,7 +110,7 @@ namespace _3619
                 {
                     if (grid[x][y] > 0)
                     {
-                        int sum = bfs(vis, grid, bfsQ, x, y, k, m*n);
+                        int sum = dfs(vis, grid, bfsQ, x, y, k);
                         num = (sum % k == 0) ? num + 1 : num;
                     }
                     else vis[x, y] = true;
