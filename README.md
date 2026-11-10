@@ -228,6 +228,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3619 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountIslandsDivisibleByK.cs) |
 | 3650 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/EdgeReversals.cs) |
 | 3658 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/GCDOddEven.cs) |
+| 3693 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ClimbingStairsII.cs) |
 | 3719 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/LongestBalancedSubarrayI.cs) |
 | 3723 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxSumSquares.cs) |
 | 3736 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MovesToEqualArrayIII.cs) |
