@@ -4,61 +4,87 @@ using System.Collections.Generic;
 
 namespace _2
 {
+    public class ListNode
+    {
+        public int val;
+        public ListNode? next;
+        public ListNode(int _val=0, ListNode? _next=null)
+        {
+            val = _val;
+            next = _next;
+        }
+    }
     public static class Globals
     {
-        public static int[] l1 = { 0 };
-        public static int[] l2 = { 0 };
-        public static LinkedList<int> listNode1 = new LinkedList<int>(l1);
-        public static LinkedList<int> listNode2 = new LinkedList<int>(l2);
+        public static int[] arr1 = { 9, 9, 9, 9, 9, 9, 9 };
+        public static int[] arr2 = { 9, 9, 9, 9 };
     }
     public class Program
     {
-        private void prettyPrint(LinkedList<int> ans)
+        private void prettyPrint(ListNode root)
         {
-            LinkedListNode<int>? iterator = ans.First;
             Console.Write("LinkedList: ");
-            while (iterator != null)
+            ListNode? ptr = root;
+            while (ptr != null)
             {
-                Console.Write($"{iterator.Value} --> ");
-                iterator = iterator.Next;
+                Console.Write($"{ptr.val} --> ");
+                ptr = ptr.next;
             }
-            Console.WriteLine("null");
+            Console.WriteLine("null\n");
             return;
         }
-        public LinkedList<int> AddTwoNumbers(LinkedList<int> listNode1, LinkedList<int> listNode2)
+        public ListNode CreateList(int[] arr)
         {
-            LinkedList<int> ans = new LinkedList<int>();
-            LinkedListNode<int>? iterator1 = listNode1.First;
-            LinkedListNode<int>? iterator2 = listNode2.First;
-
-            bool carry = false;
-            while (iterator1 != null || iterator2 != null)
+            int n = arr.Length;
+            ListNode root = new ListNode(arr[0]);
+            ListNode ptr = root;
+            for (int i=1; i<n; i++)
             {
-                int sum = 0;
-                if (iterator1 == null && iterator2 != null) sum = iterator2.Value;
-                if (iterator1 != null && iterator2 == null) sum = iterator1.Value;
-                if (iterator1 != null && iterator2 != null) sum = iterator1.Value + iterator2.Value;
-                if (carry)
+                ptr.next = new ListNode(arr[i]);
+                ptr = ptr.next;
+            }
+            return root;
+        }
+        public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        {
+            ListNode root = new ListNode();
+            bool carry = false;
+
+            ListNode? ptr1 = l1, ptr2 = l2, currPtr = null;
+            while (ptr1 != null || ptr2 != null)
+            {
+                int val1 = 0, val2 = 0;
+                if (ptr1 != null) val1 = ptr1.val;
+                if (ptr2 != null) val2 = ptr2.val;
+
+                int sum = (carry) ? val1 + 1 + val2 : val1 + val2;
+                if (sum > 9)
                 {
-                    sum += 1;
+                    carry = true;
+                    sum -= 10;
+                } else
+                {
                     carry = false;
                 }
 
-                if (sum >= 10)
+                if (currPtr == null)
                 {
-                    sum -= 10;
-                    carry = true;
+                    root.val = sum;
+                    currPtr = root;
+                }
+                else
+                {
+                    currPtr.next = new ListNode(sum);
+                    currPtr = currPtr.next;
                 }
 
-                ans.AddLast(sum);
-
-                iterator1 = (iterator1 == null) ? iterator1 : iterator1.Next;
-                iterator2 = (iterator2 == null) ? iterator2 : iterator2.Next;
+                if (ptr1 != null) ptr1 = ptr1.next;
+                if (ptr2 != null) ptr2 = ptr2.next;
             }
 
-            if (carry) ans.AddLast(1);
-            prettyPrint(ans);
-            return ans;
+            if (carry) currPtr!.next = new ListNode(1);
+            prettyPrint(root);
+            return root;
         }
     }
 }
