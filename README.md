@@ -217,6 +217,7 @@ Decided to add different variants of ways to solve problems, since there are goi
 | 3355 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/ZeroArrayTransformation.cs) |
 | 3379 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/TransformedArray.cs) |
 | 3392 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/CountSubarraysCondition.cs) |
+| 3411 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxSubarrayWithEqualProducts.cs) |
 | 3418 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/RobotSalary.cs) |
 | 3443 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/MaxManhattanDistance.cs) |
 | 3484 | [Link](https://github.com/tsistoza/CSharpLeetCodes/blob/main/Entry/Problems/DesignSpreadsheet.cs) |
