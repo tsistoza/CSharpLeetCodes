@@ -1,29 +1,30 @@
 ﻿// LeetCode 2295
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace _2295
 {
     public static class Globals
     {
-        public static List<int> nums = new List<int>() { 1, 2, 4, 6 };
-        public static List<List<int>> operations = new List<List<int>>()
+        public static int[] nums = { 1, 2, 4, 6 };
+        public static int[][] operations =
         {
-            new List<int> { 1, 3 },
-            new List<int> { 4, 7 },
-            new List<int> { 6, 1 }
+            new int[2] { 1, 3 },
+            new int[2] { 4, 7 },
+            new int[2] { 6, 1 }
         };
-        public static List<int> nums1 = new List<int>() { 1, 2 };
-        public static List<List<int>> operations1 = new List<List<int>>()
-        {
-            new List<int> { 1, 3 },
-            new List<int> { 2, 1 },
-            new List<int> { 3, 2 }
-        };
+        
     }
 
     public class Program
     {
+        private void PrettyPrint(int[] result)
+        {
+            Console.Write("{ ");
+            foreach (int num in result) Console.Write($"{num} ");
+            Console.WriteLine("}\n\n");
+        }
         public IEnumerable<int> ArrayChange (List<int> nums, List<List<int>> operations)
         {
             int[] changedArray = nums.ToArray ();
@@ -40,6 +41,23 @@ namespace _2295
             }
 
             return changedArray;
+        }
+        public int[] ArrayChangeI(int[] nums, int[][] operations)
+        {
+            int[] map = new int[1000001];
+            for (int i = 0; i < nums.Length; i++) map[nums[i]] = i;
+            
+            for (int i=0; i<operations.GetLength(0); i++)
+            {
+                int originalNumber = operations[i][0], numToReplace = operations[i][1];
+                int index = map[originalNumber];
+                nums[index] = numToReplace;
+                map[originalNumber] = -1;
+                map[numToReplace] = index;
+            }
+
+            PrettyPrint(nums);
+            return nums;
         }
     }
 }
