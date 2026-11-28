@@ -1,7 +1,6 @@
 ﻿// LeetCode 2295
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 
 namespace _2295
 {
@@ -25,24 +24,7 @@ namespace _2295
             foreach (int num in result) Console.Write($"{num} ");
             Console.WriteLine("}\n\n");
         }
-        public IEnumerable<int> ArrayChange (List<int> nums, List<List<int>> operations)
-        {
-            int[] changedArray = nums.ToArray ();
-            Dictionary<int, int> map = new Dictionary<int, int>(); // Will use a map to store the index of a particular number
-            for (int i = 0; i < nums.Count; i++)
-                map.Add(nums[i], i); // key = number, value = index in nums
-
-            foreach (List<int> operation in operations)
-            {
-                int index = map[operation[0]];
-                changedArray[index] = operation[1];
-                map.Add(operation[1], index);
-                map.Remove(operation[0]);
-            }
-
-            return changedArray;
-        }
-        public int[] ArrayChangeI(int[] nums, int[][] operations)
+        public int[] ArrayChange(int[] nums, int[][] operations)
         {
             int[] map = new int[1000001];
             for (int i = 0; i < nums.Length; i++) map[nums[i]] = i;
